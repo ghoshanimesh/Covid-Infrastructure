@@ -30,10 +30,10 @@ df_final = pd.DataFrame(columns=['case_date', 'status', 'district'])
 gender_list = ['M', 'F']
 
 #not needed of loop
-for x in range(1):
+for x in range(5):
   #the data no we need to read
-  df = pd.read_csv("raw_data" +str(x+5)+ ".csv")
-  print("-----------raw_data" +str(x+5)+ ".csv---------------")
+  df = pd.read_csv("raw_data" +str(x+1)+ ".csv")
+  print("-----------raw_data" +str(x+1)+ ".csv---------------")
   #converting all to lower
   df.columns = df.columns.str.lower()
   #extracting data
@@ -52,23 +52,14 @@ for x in range(1):
       x = x.strftime("%d/%m/%Y")
       #if case if of yesteray then only add
       #if x == case_date:
-      z = input()
-      if z >= x:
-      # age = random.randrange(3, 75)
-      # gender = random.choice(gender_list)
-        status = row['current status']
-        district = row['detected district']
-        df_tobeadded = pd.DataFrame({"case_date": case_date, "status":status, "district" : district}, index=[0])
-        df_final = df_final.append(df_tobeadded, ignore_index = True)
+      #z = input()
+      #if z >= x:
+      age = random.randrange(3, 75)
+      gender = random.choice(gender_list)
+      status = row['current status']
+      district = row['detected district']
+      df_tobeadded = pd.DataFrame({"case_date": case_date, "status":status, "district" : district,"age":age,"gender":gender}, index=[0])
+      df_final = df_final.append(df_tobeadded, ignore_index = True)
 
 #adding all the data to csv
-df_final.to_csv('Final_Cases_Without_Age_Gender.csv', index = False,mode='a', header= False)
-
-from datetime import date 
-from datetime import timedelta
-
-x = date.today() - timedelta(days = 1)
-x = x.strftime("%d/%m/%Y")
-print(x)
-
-print(z >= x)
+df_final.to_csv('Final_Cases_With_Age_Gender.csv', index = False,mode='a', header= False)
