@@ -22,4 +22,6 @@ Dataset schema
 	}
 }
 
-Covid Data = 9891 cases data
+Mongo uploaded
+1) 94,039 Cases
+2) 79 Hospitals

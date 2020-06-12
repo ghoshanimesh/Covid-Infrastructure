@@ -1,1 +1,6 @@
+Hospitals 
 https://data.gov.in/resources/hospital-directory-july-2015
+https://arogya.maharashtra.gov.in/pdf/Cat%20I%20Facility%2030%20May%202020.pdf
+
+Cases
+https://api.covid19india.org/
