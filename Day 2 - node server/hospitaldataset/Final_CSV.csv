@@ -1,0 +1,302 @@
+District,Facilty,Beds,Icu,Ventilators
+MUMBAI,Nanavati Super Speciality Hospital,118,30,12
+MUMBAI,R. N. COOPER HOSPITAL,252,8,18
+MUMBAI,Saifee Hospital,74,26,15
+MUMBAI,nair hospital,1043,110,55
+MUMBAI,HOLY FAMILY HOSPITAL,90,25,15
+MUMBAI,Breach candy,36,9,9
+MUMBAI,kem hospital,464,89,54
+MUMBAI,S. L. RAHEJA HOSPITAL,75,7,2
+MUMBAI,Lilavati Hospital and Research Centre,98,15,9
+MUMBAI,MMRDA BKC Jumbo Facility - HE (Phase I),1026,0,0
+MUMBAI,sion hospital,455,30,17
+MUMBAI,Race Course Jumbo Facility - GS (Phase II),400,40,0
+MUMBAI,TATA MEMORIAL HOSPITAL,87,6,6
+MUMBAI,GALAXY MULTISPECIALTY HOSPITAL,25,5,1
+MUMBAI,Wockhardt Hospital,125,30,17
+MUMBAI,MMRDA BKC Jumbo Facility - HE (Phase II),1000,100,0
+MUMBAI,MASINA HOSPITAL,81,21,0
+MUMBAI,SANJEEVANI HOSPITAL,25,5,2
+MUMBAI,Jaslok Hospital,40,8,5
+MUMBAI,CIDCO Mulund Jumbo Facility - T (Phase II),1900,50,30
+MUMBAI,KOHINOOR HOSPITAL,45,15,8
+MUMBAI,JAGJIVAN RAM HOSPITAL,329,32,8
+MUMBAI,BHATIA HOSPITAL,38,1,1
+MUMBAI,Seven Hill Reliance Hospital,100,18,9
+MUMBAI,Global Hospitals,16,16,4
+MUMBAI,Race Course Jumbo Facility - GS (Phase I),300,0,30
+MUMBAI,NAVNEET HI-TECH HOSPITAL,41,14,0
+MUMBAI,APEX SUPER SPECIALITY,42,11,7
+MUMBAI,APEX HOSPITAL -MULUND,23,11,5
+MUMBAI,P. D. Hinduja,52,18,15
+MUMBAI,Kasturba Hospital,125,10,10
+MUMBAI,GURUNANAK HOSPITAL,70,14,6
+MUMBAI,MCGM SEVEN HILLS,1000,109,85
+MUMBAI,LIFELINE MEDICARE - GOREGAON,10,4,2
+MUMBAI,Fortis hospital mumbai,40,20,7
+MUMBAI,G.T. Hospital,119,10,8
+MUMBAI,PRINCE ALY KHAN HOSPITAL,82,23,16
+MUMBAI,Hinduhridaysamrat Balasaheb Thackeray Trauma Hospital Jogeshwari W,195,20,30
+MUMBAI,SUSHRUSHA HOSPITAL Vikhroli,70,13,5
+MUMBAI,K. J. Somaiya,309,50,17
+MUMBAI,Saint George Hospital,143,37,37
+MUMBAI,SRV HOSPITAL,55,9,3
+MUMBAI,Dr.L.H.Hiranandani Hospital,141,25,13
+MUMBAI,Mumbai Metro Dahisar Jumbo Facility - T (Phase II),900,120,30
+MUMBAI,NESCO Jumbo Facility  (Phase I),1000,0,60
+MUMBAI,"Rajawadi Hospital, Ghatkopar (E)",100,0,2
+MUMBAI,NOWROSJEE WADIA MATERNITY HOSPITAL,30,0,0
+MUMBAI,BSES MG GENERAL HOSPITAL,52,13,4
+MUMBAI,THUNGA HOSPITAL,26,0,0
+MUMBAI,Ackworth Leprosy Hospital,30,0,0
+MUMBAI,"Pt. M.M. Malviya Centenary Hospital, Govandi (E",100,0,4
+MUMBAI,"K B BHABHA HOSPITAL, BANDRA",101,10,8
+MUMBAI,KARUNA HOSPITAL,40,0,0
+MUMBAI,EYE HOSPITAL,30,0,0
+MUMBAI,Worli Police Ground Jumbo Facility - GS (Phase III),0,0,0
+MUMBAI,"Maa Hospital, Chembur",25,0,1
+MUMBAI,Employees' State Insurance scheme Hospital,69,0,8
+MUMBAI,"K.B. Bhabha Hospital, Kurla (W)",100,7,10
+MUMBAI,NH SRCC Children's Hospital,18,6,3
+MUMBAI,Gilder Lane School Jumbo Facility - E (Phase III),0,0,0
+MUMBAI,Bhagwati Hospital NTC Bldg,69,0,2
+MUMBAI,CAMA HOSPITAL,150,0,0
+MUMBAI,Bombay Hospital,63,2,2
+MUMBAI,Famous Studio Bandra Jumbo Facility ,0,0,0
+MUMBAI,LIFELINE HOSPITAL - KANDIVALI,12,0,0
+MUMBAI,"M.W. Desai Hospital, Malad (E)",50,0,0
+MUMBAI,Bharat Ratna Dr Babasaheb Ambedkar Municipal General Hospital,150,10,13
+MUMBAI,Jio Convention Centre Jumbo Facility ,1500,0,0
+MUMBAI,S.K. Patil Hospital,60,0,0
+MUMBAI,JNPT Hospital,20,0,4
+MUMBAI,"Sushrusha Hospital, Dadar",50,11,5
+MUMBAI,Najam Baug Jumbo Facility - B (Phase II),100,0,0
+MUMBAI,"V.N. Desai Hospital, Santacruz(E)",10,10,8
+MUMBAI,Richardson and Cruddas Jumbo Facility - E (Phase II),700,0,0
+MUMBAI,Mumbai Port Trust Hospital,68,2,8
+MUMBAI,ENT Hospital,60,0,0
+MUMBAI,NESCO,285,0,0
+MUMBAI,NSCI Dome Jumbo Facility - GS,518,0,0
+MUMBAI,Maharashtra Nature Park (Dharavi) Jumbo Facility - GN,200,0,0
+MUMBAI,SVD Savarkar Hospital Mulund,30,0,0
+MUMBAI,HINDU SABHA,75,5,2
+MUMBAI,Kanakia Ground Chembur Jumbo Facility - MW (PhaseIII),700,0,0
+MUMBAI,Bombay Tobacco Studio Juhu Jumbo Facility - KW (PhaseIII),0,0,0
+MUMBAI,Filmistan Goregaon Jumbo Facility - PS (Phase III),0,0,0
+MUMBAI,Malad Infiniti Mall Jumbo Facility - PN (Phase III),1500,0,0
+MUMBAI,NESCO Jumbo Facility - P South (Phase II),2000,200,0
+MUMBAI,HINDU MAHASABHA HOSPITAL,100,0,0
+MUMBAI,MAHATMA GANDHI MEMORIAL HOSPITAL,100,0,0
+MUMBAI,D2 Grant Medical Gymkhana,90,0,0
+MUMBAI,FS2 Baradevi Municipal School,75,0,0
+MUMBAI,GS2 Mahalaxmi Racecourse,300,0,0
+PUNE,Symbiosis University Hospital,470,30,4
+PUNE,Sahyadri Hospital Deccan,89,19,24
+PUNE,Inlax & Budhrani Hospital,161,20,20
+PUNE,Poona Hospital,176,42,6
+PUNE,Columbia Asia Hospital,68,10,5
+PUNE,Sanjeevan Hospital,32,16,4
+PUNE,Jehangir Hospital,217,53,23
+PUNE,Deoyani multispeciality hospital,56,10,3
+PUNE,Ruby Hall Clinic ,384,94,20
+PUNE,ALC,190,30,10
+PUNE,Lokmanya Hospital,28,22,6
+PUNE,Sassoon General Hospital,147,40,28
+PUNE,Aditya Birla hospital ,50,25,10
+PUNE,Comd Hospital,350,40,10
+PUNE,DH,50,10,5
+PUNE,YASHWANTRAO CHAVAN MEMORIAL HOSPITAL,500,90,25
+PUNE,KEM Hospital,306,32,24
+PUNE,Smt Kashibai Navale Medical College,90,12,5
+PUNE,Noble Hospital,146,10,14
+PUNE,Mimer Medical Collage & hospital ,80,20,6
+PUNE,Bharti Vidyapeeth,400,32,32
+PUNE,Deenanth Mangeshkar Hospital,480,64,40
+PUNE,Sahyadri Hospital,80,20,8
+PUNE,Sahyadri Hospital,32,4,2
+PUNE,Mahalaxmi Hospital,45,5,1
+PUNE,SDH Manchar,25,5,5
+PUNE,Vishwaraj Hospital,85,25,2
+PUNE,Vignharth Hospital,40,6,2
+PUNE,Bhimashankar Ayurvedic Hospital Research Centre,60,0,0
+PUNE,New Bhosari Hospital,60,0,0
+PUNE,Imax Hospital,90,10,2
+PUNE,RH Rui,16,6,2
+PUNE,Bhakre Superspeciality Hospital & Resarch Institute,25,6,0
+PUNE,Dr. Naidu Hospital,110,10,5
+PUNE,Shlok Hospital,43,8,2
+PUNE,Matoshree  Madanbhai Hospital,44,6,2
+PUNE,Shwas Hospital,40,10,2
+PUNE,Criticare Hospital,90,10,2
+PUNE,Surya Hospital,28,2,2
+PUNE,Accord Hospital,40,10,3
+PUNE,Chintamani Hospital,62,8,2
+PUNE,CH,49,1,1
+PUNE,Rao Nursing Home,120,1,6
+PUNE,Sterling Hospital Pradhikaran,80,7,2
+PUNE,Swar. Sukhlalji Jain Dharmarth Hospital,47,3,1
+PUNE,Khadki Cantonment Hospital,20,0,0
+PUNE,Surya-Sahyadri Hospital PVT.LTD,34,5,3
+PUNE,Ruby Hall Clinic,63,7,4
+PUNE,ESIS Hospital,75,0,0
+PUNE,Sahyadri Hospital,84,10,7
+PUNE,MJM Hospital,19,8,2
+PUNE,Jijamata Hospital,80,10,3
+PUNE,Pune Cantonment Hospital,200,0,0
+PUNE,Global Hospital & Research Institute,17,5,3
+PUNE,BJS College,420,0,0
+PUNE,Dr Babasaheb Ambedkar Mulanche Vastighruh,100,0,0
+PUNE,National Post Harvest Center,184,0,0
+PUNE,RakshakNagar Stadium,90,0,0
+PUNE,Boy's Hostel of Social Justice Department,260,0,0
+PUNE,Bhimashankar Ayurvedic College,40,0,0
+PUNE,Lenyandri Bhakt Niwas,250,0,0
+PUNE,"Navsahyadari College of Engineering ,Bhor",224,0,0
+PUNE,Dr. Dalavi Hospital,40,0,0
+PUNE,Sanas Ground,125,0,0
+PUNE,Trauma Care Unit ,20,0,0
+PUNE,Magasvargiya Mulanche Vasatigruha,12,0,0
+PUNE,Indian Socity for social action,200,0,0
+PUNE,Magasvargiy Mulinche Shaskiya Vastigruh Indapur,100,0,0
+PUNE,Anu jati & navbaudhya Mulanche Shaskiya Vastigruh ,150,0,0
+PUNE,Bharti Vidyapeeth College of Aurved,50,0,0
+PUNE,Wagire Pharmacy College ,30,0,0
+PUNE,Guruvarya Shankarrao Bhujbal Vidyalay,160,0,0
+PUNE,Dattakala Shikshan Sanstha,700,0,0
+PUNE,Hariyana Stadium,20,0,0
+PUNE,Shivtara Lodge,52,0,0
+PUNE,MTDC Bhakt Niwas Rajpur,200,0,0
+PUNE,Sumatibai Shaha Ayurved College ,50,0,0
+PUNE,Nadushree Mangal Karyalay,150,0,0
+PUNE,Sidhant Group of Institue,200,0,0
+PUNE,MB Camp School ,100,0,0
+PUNE,Pune District Education Trust Ayurved College ,50,0,0
+PUNE,Astang Ayurved College,50,0,0
+PUNE,Singhgad College,327,0,0
+PUNE,Dr Kadam Gurukul High School,200,0,0
+PUNE,Dr. Ambedkar Highschool,120,0,0
+PUNE,Julekhabai Vali Unani College,25,0,0
+PUNE,Tilak Ayurved College,50,0,0
+THANE,Thane health Care,41,12,3
+THANE,KDMC VASANT VALLEY,66,9,2
+THANE,Maxlife hospital,63,10,2
+THANE,Prime horizon Hospitl Manpada,85,15,8
+THANE,Fortis hospital (NMMC),100,1,1
+THANE,Metro pol Multispeciality,50,30,0
+THANE,KDMC SHIVAM HOSPITAL,44,6,2
+THANE,KDMC Sai Hospital,23,17,4
+THANE,Terna Hospital,250,18,2
+THANE,IGM Bhiwandi,90,10,4
+THANE,New Thane COVID Hospital,189,55,20
+THANE,Satya sai Platinum hospital,70,12,4
+THANE,Siddhivinayak Maternity and General Hospital,43,7,4
+THANE,KDMC A&G HOSPITAL ,29,6,2
+THANE,Apollo Hospital ,100,10,5
+THANE,Lake City Hospital,14,11,2
+THANE,Wellam Hospital & Diagnostic Centre,12,8,1
+THANE,Kaushalya Hospital,81,19,6
+THANE,SHWAS MULTI SPECIALITY,44,6,2
+THANE,Life Care Hospital,17,7,3
+THANE,Param Hospital & ICU,18,10,5
+THANE,Fortune Plus ICU & Multispeciality Hospital LLP,18,8,1
+THANE,KDMC Holy Cross,63,7,4
+THANE,KDMD C.B. VAIDYA MEMORIAL HOSPITAL ,39,6,2
+THANE,KDMC Neon Hospital,22,6,5
+THANE,Swayam Hospital,28,7,2
+THANE,Infinity MediSurge Center,25,7,4
+THANE,KDMC Baj R.R. Hospital,45,11,4
+THANE,Pandit Bhimsen Joshi Hospital,130,20,18
+THANE,KDMC STAR CITY MULTI SPECIALTY,44,6,2
+THANE,TMC: Civil Hospital Thane ,180,20,15
+THANE,MPCT Hospital ,46,4,4
+THANE,Oscar Multispeciality Hospital,39,9,3
+THANE,Jito Educational & Medical Trust,82,16,4
+THANE,KDMC Sai Arogyam Hospital,18,7,2
+THANE,Galaxy Hospital,18,7,1
+THANE,MGM Hospital ,42,8,4
+THANE,Sapphire Hospital,91,52,6
+THANE,Titan Hospital,50,10,3
+THANE,Sheth P V Doshi Hospital,32,8,4
+THANE,Neon Hospital,25,15,3
+THANE,Family Care Hospital,55,20,4
+THANE,PKC Hospital ,40,10,2
+THANE,Women Hospital,50,16,5
+THANE,Neptune Hospital,8,7,1
+THANE,Aaarogyan Multispeciality Hospital,50,11,2
+THANE,Highway Hospital,41,9,3
+THANE,KDMC C.B. VAIDYA MEMORIAL HOSPITAL KALYAN,39,6,2
+THANE,KDMC Optilife Hospital,42,8,4
+THANE,S S Hospital,80,20,3
+THANE,TMC: Kalsekar Hospital,99,41,3
+THANE,Ambernath city Hospital,60,7,1
+THANE,Wockhardt Hospital,45,5,4
+THANE,KDMC LALCHOWKI BOT ,40,10,2
+THANE,KDMC Sidhivinayak Multi Specialty Hospital,16,9,2
+THANE,SS HOSPITAL,90,10,0
+THANE,MBMC - Thunga Hospital,22,8,1
+THANE,Reliance Hospital ,87,13,6
+THANE,KDMC RUKMINIBAI PLAZA,66,9,2
+THANE,VED HOSPITAL,47,3,1
+THANE,Vedant Hospital,90,20,12
+THANE,Vashi General Hospital,175,10,30
+THANE,Teoram Ashram,40,0,0
+THANE,Bhinar ashram school,200,0,0
+THANE,Dental college,500,0,0
+THANE,ETC Building ,100,0,0
+THANE,BSUP Khartan Road,144,0,0
+THANE,Lodha Parking Plaza,600,0,0
+THANE,NTEP Enginering College,200,0,0
+THANE,TATA AMANTRA,440,0,0
+THANE,Presidency school Padaga,200,0,0
+THANE,KDMC SAI NIRVANA,636,0,0
+THANE,FRANK HOSPITAL,40,0,0
+THANE,India Bulls,1500,0,0
+THANE,Dosti Desire,80,0,0
+THANE,PRIME HOSPITAL,25,0,0
+THANE,Reliance Life Science IT Park ,100,0,0
+THANE,BSUP Padale,655,0,0
+THANE,KDMC TITWALA GANESH MANDIR HALL,150,0,0
+THANE,BSUP CCC SONAVALI,100,0,0
+THANE,K Star Hotel,60,0,0
+THANE,Acme Rental Project,1113,0,0
+THANE,BSUP Sagarli,94,0,0
+THANE,Jondhale College ,30,0,0
+THANE,AMRUT HOSPITAL,25,0,0
+THANE,KDMC MANGESHI CRYSTAL,50,0,0
+THANE,IBIS Hotel ,196,0,0
+THANE,BNMC-Tata Amantra,550,0,0
+THANE,Warkari Bhavan,110,0,0
+THANE,Ramada Hotel,99,0,0
+THANE,BSUP Brahmand ,90,0,0
+THANE,KDMC MANOJ RAI BUILDING,100,0,0
+THANE,Ahilyabai Holkar Multipurpose Hall ,60,0,0
+THANE,India Bull Residency ,1008,0,0
+THANE,TMC: Hotel Capito,50,0,0
+THANE,AL-MOIN HOSPITAL,40,0,0
+THANE,Dosti Planet,340,0,0
+THANE,KDMC SAINT LAWRENCE,200,0,0
+THANE,Delta garden,84,0,0
+THANE,Hotel Dharsh Lodge ,35,0,0
+THANE,Koparkhairane Samaj Mandir Hall ,60,0,0
+THANE,Sharanam Hotel,50,0,0
+THANE,Lodha Bhayandarpada,250,0,0
+THANE,KDMC SUB CENTER MUMBAI UNIVERSITY,200,0,0
+THANE,Central Hospital Dahiwali,100,0,0
+THANE,M.M.R.D.A building samriddhi housing society ,814,0,0
+THANE,Sai Sunder Hotel ,12,0,0
+THANE,Airoli Samaj Mandir,100,0,0
+THANE,Hotel Raj Residency,40,0,0
+THANE,Hotel Lerida Runwal Nagar,50,0,0
+THANE,KDMC BSUP INDIRA NAGAR,200,0,0
+THANE,Tata Amantra ,2973,0,0
+THANE,Export Building ,300,0,0
+THANE,Agri Koli Bhavan,100,0,0
+THANE,DHANGE HOSPITAL,49,0,0
+THANE,Ginger Hotel ,40,0,0
+THANE,TMC: Kasarvadavali,242,0,0
+THANE,Bsup Sonewali,100,0,0
+THANE,Swami Vivekananad Multiperpal,140,0,0
+THANE,Pranam Hotel ,25,0,0
+THANE,CIDCO Exhibition Hall Vashi,682,0,0
+THANE,Horizon School,1150,0,0
+,,,,

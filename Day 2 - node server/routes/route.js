@@ -7,34 +7,86 @@ const mongoose = require('mongoose')
 const Hospital = require("../models/hospital");
 const Case = require("../models/cases");
 
-router.get("/addHospital", (req,res,next)=>{
+router.get("/updateHospital",(req,res,next)=>{
     fs.readFile("hospital_mh.csv", async(err,data)=>{
         if(err){
             console.log(err);
             return;
         }
         let datareadcsv = await neatCsv(data);
-        console.log(datareadcsv);
+        let query = Hospital.find();
+        var i = 0;
+        query.exec((err, hospital) => {
+            if(err){
+                console.log("Herereee");
+                res.status(404).json({msg: "Error retrieving hospital with id " + errr})
+            }else{
+                datareadcsv.forEach((element)=>{
+                    var beds  = element.Beds;
+                    var icu = element.ICU;
+                    var ventilator = element.Ventilator;
+                    var hosp_id = hospital[i++]._id;
+                    var new_query = Hospital.updateOne({'_id': hosp_id}, {$set:{"no_of_beds" : beds,"no_of_icu_beds": icu,"no_of_ventilators": ventilator}});
+                    executeQuery(new_query);
+                    //console.log(beds+ " " + icu + " " + ventilator)
+                });
+            }
+        });
+        // let newHospital = new Hospital({
+        //     state: element.State,
+        //     district: element.City,
+        //     hospital_name: element.Hospital,
+        //     hospital_addr: element.Address,
+        //     hospitalized: [],
+        //     deceased: [],
+        //     recovered: []            
+        // });
+        // newHospital.save((err, hospital)=>{});            
+    });  
+});
+
+/*
+
+3 array 
+norma- [......]
+icu - [......]
+ventilator - [....]
+
+hospid
+    hospti
+        date
+            cases random generator
+
+*/
+router.get("/addHospital", (req,res,next)=>{
+    fs.readFile("hospitaldataset/Final_CSV.csv", async(err,data)=>{
+        if(err){
+            console.log(err);
+            return;
+        }
+        let datareadcsv = await neatCsv(data);
+        var i = 0;
         datareadcsv.forEach((element)=>{
             let newHospital = new Hospital({
-                state: element.State,
-                district: element.City,
-                hospital_name: element.Hospital,
-                hospital_addr: element.Address,
-                hospitalized: [],
-                deceased: [],
-                recovered: []            
+                state : "Maharashtra",
+                district: element.District,
+                hospital_name: element.Facilty,
+                //hospital_category: cat,
+                no_of_normal_beds: element.Beds,
+                no_of_icu_beds: element.Icu,
+                no_of_ventilators: element.Ventilators,
+                
             });
-            newHospital.save((err, hospital)=>{});            
-        });        
+            newHospital.save((err, hospital)=>{});
+        });            
     });
     res.send({msg: "All Hospitals Added"})
 });
 
-router.get("/addCases", (req,res,next)=>{
-    insertCases()
-    res.send({msg: "All Cases Added and Mapped"})
-})
+// router.get("/addCases", (req,res,next)=>{
+//     insertCases()
+//     res.send({msg: "All Cases Added and Mapped"})
+// })
 
 async function insertCases(){
     fs.readFile("cases.csv", async(err,data)=>{
@@ -258,5 +310,7 @@ router.get("/getCountOfHospital/:hosp_id", (req, res, next)=> {
         res.send(results);
     })
 })
+
+
 
 module.exports = router;

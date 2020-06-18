@@ -7,43 +7,11 @@ const hospitalSchema = new mongoose.Schema({
         required: [true, 'District is required']
     },
     hospital_name: {type: String, required: [true, 'Hospital Name is required']},
-    hospital_addr: {type: String, required: [true, 'Hospital Address is required']},
-    hospitalized: [
-        {
-            _id: false,
-            date: {type: String, required: [true, 'Hospital Address is required']},
-            cases: [
-                {
-                    _id: false,
-                    case_id: {type: mongoose.Schema.ObjectId}
-                }
-            ]
-        }
-    ],
-    deceased:[
-        {
-            _id: false,
-            date: {type: String, required: [true, 'Hospital Address is required']},
-            cases: [
-                {
-                    _id: false,
-                    case_id: {type: mongoose.Schema.ObjectId}
-                }
-            ]
-        }
-    ],
-    recovered:[
-        {
-            _id: false,
-            date: {type: String, required: [true, 'Hospital Address is required']},
-            cases: [
-                {
-                    _id: false,
-                    case_id: {type: mongoose.Schema.ObjectId}
-                }
-            ]
-        }
-    ],    
+    //hospital_category : {type: String, required: [true, 'Hospital Name is required']},
+    no_of_normal_beds : {type: Number, required: [true, 'Hospital Name is required']},
+    no_of_icu_beds : {type: Number, required: [true, 'Hospital Name is required']},
+    no_of_ventilators : {type: Number, required: [true, 'Hospital Name is required']},
+
 })
 
 const hospital = module.exports = mongoose.model('Hospital', hospitalSchema)
