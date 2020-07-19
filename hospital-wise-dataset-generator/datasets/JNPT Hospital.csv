@@ -1,0 +1,25 @@
+name,age,gender,date_admitted,bed_type
+Nitya Seth,40,Female,20/06/2020,NORMAL_BED
+Bagyawathi Mangal,30,Female,20/06/2020,NORMAL_BED
+Dhriti Kashyap,30,Female,21/06/2020,NORMAL_BED
+Priti Mukherjee,35,Female,21/06/2020,NORMAL_BED
+Supriya Khurana,14,Female,22/06/2020,ICU_BED
+Twinkle Bawa,30,Female,23/06/2020,ICU_BED
+Chandanika Mani,34,Female,23/06/2020,VENTILATOR_BED
+Virendra Kumar,45,Male,23/06/2020,ICU_BED
+Deepika Goel,64,Female,23/06/2020,NORMAL_BED
+Darsha Deshpande,21,Female,24/06/2020,NORMAL_BED
+Mira Chawla,18,Female,24/06/2020,NORMAL_BED
+Shilpa Dhar,59,Female,24/06/2020,NORMAL_BED
+Kavi Khurana,49,Male,24/06/2020,NORMAL_BED
+Sanjula Chowdhury,44,Female,25/06/2020,NORMAL_BED
+Indeever Kohli,65,Male,25/06/2020,NORMAL_BED
+Gharshit Ganguly,38,Male,26/06/2020,NORMAL_BED
+Rajalakshmi Rao,54,Female,26/06/2020,NORMAL_BED
+Shyamalika Madan,62,Female,26/06/2020,NORMAL_BED
+Vaman Joshi,40,Male,26/06/2020,NORMAL_BED
+Kapirath Kashyap,21,Male,27/06/2020,NORMAL_BED
+Pratyusha Dayal,50,Female,27/06/2020,NORMAL_BED
+Manmayi Laghari,60,Female,27/06/2020,NORMAL_BED
+Jagamohan Acharya,46,Male,28/06/2020,NORMAL_BED
+Anupama Dhillon,57,Female,28/06/2020,NORMAL_BED

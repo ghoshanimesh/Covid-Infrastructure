@@ -1,0 +1,27 @@
+name,age,gender,date_admitted,bed_type
+Pragati Jha,64,Female,19/06/2020,ICU_BED
+Namrata Singh,53,Female,19/06/2020,NORMAL_BED
+Punit Garg,40,Male,19/06/2020,ICU_BED
+Karan Chabra,25,Male,20/06/2020,NORMAL_BED
+Shobhita Kaur,39,Female,21/06/2020,NORMAL_BED
+Sheela Dewan,31,Female,21/06/2020,NORMAL_BED
+Kalpini Apte,32,Female,21/06/2020,ICU_BED
+Tatva Amin,33,Male,21/06/2020,NORMAL_BED
+Kamalika Dixit,59,Female,22/06/2020,NORMAL_BED
+Satyaprakash Burman,40,Male,22/06/2020,VENTILATOR_BED
+Ojasvi Kashyap,47,Female,22/06/2020,NORMAL_BED
+Ramadut Dara,45,Male,22/06/2020,NORMAL_BED
+Shivanand Goel,32,Male,22/06/2020,NORMAL_BED
+Indumati Dixit,22,Female,22/06/2020,ICU_BED
+Ashwath Chabra,34,Male,22/06/2020,ICU_BED
+Meghna Khurana,61,Female,23/06/2020,NORMAL_BED
+Karnajeet Kumar,64,Male,23/06/2020,NORMAL_BED
+Joshika Zacharia,32,Female,23/06/2020,NORMAL_BED
+Neelkanth Dhawan,10,Male,23/06/2020,NORMAL_BED
+Rakhi Chabra,10,Female,23/06/2020,NORMAL_BED
+Mandodari Seth,53,Female,23/06/2020,NORMAL_BED
+Mahitha Purohit,40,Female,24/06/2020,NORMAL_BED
+Amitabh Singh,50,Male,24/06/2020,NORMAL_BED
+Kanishk Zacharia,27,Male,25/06/2020,NORMAL_BED
+Deyaan Dalal,52,Male,25/06/2020,NORMAL_BED
+Jiya Deshpande,42,Female,26/06/2020,NORMAL_BED

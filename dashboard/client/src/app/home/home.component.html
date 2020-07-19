@@ -1,0 +1,318 @@
+<header id="header-wrap">
+  <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <a href="index.html" class="navbar-brand"
+        ><img src="assets/img/logo.png" alt=""
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+        aria-controls="navbarCollapse"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="lni-menu"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
+          <li class="nav-item active">
+            <a class="nav-link" href="#hero-area">
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-us">
+              About Us
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#features">
+              Features
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">
+              Team
+            </a>
+          </li>
+          <li class="header-button ml-3">
+            <a class="btn btn-common" [routerLink]="['../login']">
+              Login / Register
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+
+  <!-- Hero Area Start -->
+  <div id="hero-area" class="hero-area-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
+          <div class="contents">
+            <h2 class="head-title">Covid-19 Infrastructure Tracker App</h2>
+            <p>
+              It tracks the number of beds available in the hospitals and
+              predicts the number of cases that can appear the next day.
+            </p>
+            <div class="header-button">
+              <a href="#" class="btn btn-common">Download Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+          <div class="intro-img">
+            <img class="img-fluid" src="assets/img/intro-mobile.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Hero Area End -->
+</header>
+<!-- Header Area wrapper End -->
+
+<!-- About Section start -->
+<div class="about-area section-padding bg-gray" id="about-us">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-xs-12 info">
+        <div class="about-wrapper wow fadeInLeft" data-wow-delay="0.3s">
+          <div>
+            <div class="site-heading">
+              <h2 class="section-title">About US</h2>
+            </div>
+            <div class="content">
+              <p>
+                We are a team of undergrads who have developed a project to
+                track the infrastructure of one of the biggest pandemics -
+                Covid-19 to help people with the knowledge of available beds at
+                various hospitals with our app. It also predicts the number of
+                cases that can possibly arrive the next day. It is a project
+                built for our Final Year.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-lg-6 col-md-12 col-xs-12 wow fadeInRight"
+        data-wow-delay="0.3s"
+      >
+        <img class="img-fluid" src="assets/img/about/img-1.svg" alt="" />
+      </div>
+    </div>
+  </div>
+</div>
+<!-- About Section End -->
+
+<!-- Features Section Start -->
+<section id="features" class="section-padding">
+  <div class="container">
+    <div class="section-header text-center">
+      <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">
+        Awesome Features
+      </h2>
+      <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+        <div class="content-left">
+          <div class="box-item wow fadeInLeft" data-wow-delay="0.3s">
+            <span class="icon">
+              <i class="lni-rocket"></i>
+            </span>
+            <div class="text">
+              <h4>Tracks Infrastructure</h4>
+              <p>
+                It is used to track the number of beds available at a particular hospital.
+              </p>
+            </div>
+          </div>
+          <div class="box-item wow fadeInLeft" data-wow-delay="0.6s">
+            <span class="icon">
+              <i class="lni-laptop-phone"></i>
+            </span>
+            <div class="text">
+              <h4>Cases Prediction</h4>
+              <p>
+                It helps to predict the number of cases that can arrive on the next day.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+        <div class="show-box wow fadeInUp" data-wow-delay="0.3s">
+          <img src="assets/img/feature/intro-mobile.png" alt="" />
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+        <div class="content-right">
+          <div class="box-item wow fadeInRight" data-wow-delay="0.3s">
+            <span class="icon">
+              <i class="lni-leaf"></i>
+            </span>
+            <div class="text">
+              <h4>Symptoms & Prevention</h4>
+              <p>
+                Indicates the Symptoms and Prevention information on Covid-19.
+              </p>
+            </div>
+          </div>
+          <div class="box-item wow fadeInRight" data-wow-delay="0.9s">
+            <span class="icon">
+              <i class="lni-leaf"></i>
+            </span>
+            <div class="text">
+              <h4>Stats & Analysis</h4>
+              <p>
+                Gives an insight directly from the registered hospitals.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Features Section End -->
+
+<!-- Team Section Start -->
+<section id="team" class="section-padding bg-gray">
+  <div class="container">
+    <div class="section-header text-center">
+      <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">
+        Meet our team
+      </h2>
+      <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-xs-12">
+        <!-- Team Item Starts -->
+        <div class="team-item wow fadeInRight" data-wow-delay="0.2s">
+          <div class="team-img">
+            <img class="img-fluid" src="assets/img/team/team-01.png" alt="" />
+          </div>
+          <div class="contetn">
+            <div class="info-text">
+              <h3><a href="#">Roopa Bhambhani</a></h3>
+              <p>Web Developer</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos
+              id officiis hic tenetur.
+            </p>
+          </div>
+        </div>
+        <!-- Team Item Ends -->
+      </div>
+      <div class="col-lg-6 col-md-12 col-xs-12">
+        <!-- Team Item Starts -->
+        <div class="team-item wow fadeInRight" data-wow-delay="0.4s">
+          <div class="team-img">
+            <img class="img-fluid" src="assets/img/team/team-02.png" alt="" />
+          </div>
+          <div class="contetn">
+            <div class="info-text">
+              <h3><a href="#">Mahesh Lulla</a></h3>
+              <p>App Developer</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos
+              id officiis hic tenetur.
+            </p>
+          </div>
+        </div>
+        <!-- Team Item Ends -->
+      </div>
+      <div class="col-lg-6 col-md-12 col-xs-12">
+        <!-- Team Item Starts -->
+        <div class="team-item wow fadeInRight" data-wow-delay="0.6s">
+          <div class="team-img">
+            <img class="img-fluid" src="assets/img/team/team-03.png" alt="" />
+          </div>
+          <div class="contetn">
+            <div class="info-text">
+              <h3><a href="#">Manju Bhambhani</a></h3>
+              <p>Python Developer</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos
+              id officiis hic tenetur.
+            </p>
+          </div>
+        </div>
+        <!-- Team Item Ends -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Team Section End -->
+
+<!-- Footer Section Start -->
+<footer id="footer" class="footer-area section-padding">
+  <div class="container">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+          <div class="widget">
+            <h3 class="footer-logo text-center">
+              <img src="assets/img/logo.png" alt="" />
+            </h3>
+            <h3 class="footer-titel text-center">
+              Covid-19 Infrastructure Tracker.
+            </h3>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+          <h3 class="footer-titel">Products</h3>
+          <ul class="footer-link">
+            <li><a href="assets/apk/covid19tracker.apk" download>Android App</a></li>
+            <li><a [routerLink]="['../login']">Login</a></li>
+            <li><a [routerLink]="['../home']">Website</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+          <h3 class="footer-titel">Contact</h3>
+          <ul class="address">
+            <li>
+              <a href="#"
+                ><i class="lni-map-marker"></i> Vivekanand Education Society
+                Institue of Technology - Chembur, Mumbai-400074</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><i class="lni-envelope"></i> E: rupabhambhani@gmail.com</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="copyright">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="copyright-content">
+            <p>Copyright © 2020. Team VESIT. All Right Reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Footer Section End -->
+
+<!-- Go to Top Link -->
+<!-- <a href="#" class="back-to-top">
+  <i class="lni-arrow-up"></i>
+</a> -->

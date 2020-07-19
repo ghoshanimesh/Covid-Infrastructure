@@ -1,0 +1,301 @@
+_id,state,district,hospital_name,no_of_normal_beds,no_of_icu_beds,no_of_ventilators,__v
+5eeef927fc9f00325c3dfb3b,Maharashtra,MUMBAI,Saifee Hospital,74,26,15,0
+5eeef927fc9f00325c3dfb3d,Maharashtra,MUMBAI,Holy Family Hospital,90,25,15,0
+5eeef927fc9f00325c3dfb39,Maharashtra,MUMBAI,Nanavati Super Speciality Hospital,118,30,12,0
+5eeef927fc9f00325c3dfb3a,Maharashtra,MUMBAI,R. N. Cooper Hospital,252,8,18,0
+5eeef927fc9f00325c3dfb3c,Maharashtra,MUMBAI,Nair Hospital,1043,110,55,0
+5eeef927fc9f00325c3dfb3e,Maharashtra,MUMBAI,Breach Candy,36,9,9,0
+5eeef927fc9f00325c3dfb42,Maharashtra,MUMBAI,MMRDA BKC Jumbo Facility - HE (Phase I),1026,0,0,0
+5eeef927fc9f00325c3dfb41,Maharashtra,MUMBAI,Lilavati Hospital and Research Centre,98,15,9,0
+5eeef927fc9f00325c3dfb3f,Maharashtra,MUMBAI,KEM Hospital,464,89,54,0
+5eeef927fc9f00325c3dfb40,Maharashtra,MUMBAI,S. L. Raheja Hospital,75,7,2,0
+5eeef927fc9f00325c3dfb43,Maharashtra,MUMBAI,Sion Hospital,455,30,17,0
+5eeef927fc9f00325c3dfb44,Maharashtra,MUMBAI,Race Course Jumbo Facility - GS (Phase II),400,40,0,0
+5eeef927fc9f00325c3dfb45,Maharashtra,MUMBAI,Tata Memorial Hospital,87,6,6,0
+5eeef927fc9f00325c3dfb48,Maharashtra,MUMBAI,MMRDA BKC Jumbo Facility - HE (Phase II),1000,100,0,0
+5eeef927fc9f00325c3dfb46,Maharashtra,MUMBAI,Galaxy Multispecialty Hospital,25,5,1,0
+5eeef927fc9f00325c3dfb47,Maharashtra,MUMBAI,Wockhardt Hospital,125,30,17,0
+5eeef927fc9f00325c3dfb49,Maharashtra,MUMBAI,Masina Hospital,81,21,0,0
+5eeef927fc9f00325c3dfb4a,Maharashtra,MUMBAI,Sanjeevani Hospital,25,5,2,0
+5eeef927fc9f00325c3dfb4b,Maharashtra,MUMBAI,Jaslok Hospital,40,8,5,0
+5eeef927fc9f00325c3dfb4c,Maharashtra,MUMBAI,CIDCO Mulund Jumbo Facility - T (Phase II),1900,50,30,0
+5eeef927fc9f00325c3dfb4e,Maharashtra,MUMBAI,Jagjivan Ram Hospital,329,32,8,0
+5eeef927fc9f00325c3dfb4d,Maharashtra,MUMBAI,Kohinoor Hospital,45,15,8,0
+5eeef927fc9f00325c3dfb4f,Maharashtra,MUMBAI,Bhatia Hospital,38,1,1,0
+5eeef927fc9f00325c3dfb50,Maharashtra,MUMBAI,Seven Hill Reliance Hospital,100,18,9,0
+5eeef927fc9f00325c3dfb51,Maharashtra,MUMBAI,Global Hospitals,16,16,4,0
+5eeef927fc9f00325c3dfb52,Maharashtra,MUMBAI,Race Course Jumbo Facility - GS (Phase I),300,0,30,0
+5eeef927fc9f00325c3dfb53,Maharashtra,MUMBAI,Navneet Hospital,41,14,0,0
+5eeef927fc9f00325c3dfb54,Maharashtra,MUMBAI,Apex Super Speciality Hospital,42,11,7,0
+5eeef927fc9f00325c3dfb55,Maharashtra,MUMBAI,Apex Hospital,23,11,5,0
+5eeef927fc9f00325c3dfb56,Maharashtra,MUMBAI,P. D. Hinduja Hospital,52,18,15,0
+5eeef927fc9f00325c3dfb57,Maharashtra,MUMBAI,Kasturba Hospital,125,10,10,0
+5eeef927fc9f00325c3dfb5a,Maharashtra,MUMBAI,Lifeline Medicare,10,4,2,0
+5eeef927fc9f00325c3dfb59,Maharashtra,MUMBAI,MCGM Seven Hills Hospital,1000,109,85,0
+5eeef927fc9f00325c3dfb58,Maharashtra,MUMBAI,Gurunanak Hospital,70,14,6,0
+5eeef927fc9f00325c3dfb5b,Maharashtra,MUMBAI,Fortis Hospital,40,20,7,0
+5eeef927fc9f00325c3dfb5c,Maharashtra,MUMBAI,G.T. Hospital,119,10,8,0
+5eeef927fc9f00325c3dfb5d,Maharashtra,MUMBAI,Prince Aly Khan Hospital,82,23,16,0
+5eeef927fc9f00325c3dfb5e,Maharashtra,MUMBAI,Hinduhridaysamrat Balasaheb Thackeray Trauma Hospital,195,20,30,0
+5eeef927fc9f00325c3dfb5f,Maharashtra,MUMBAI,Sushrusha Hospital,70,13,5,0
+5eeef927fc9f00325c3dfb60,Maharashtra,MUMBAI,K. J. Somaiya,309,50,17,0
+5eeef927fc9f00325c3dfb61,Maharashtra,MUMBAI,Saint George Hospital,143,37,37,0
+5eeef927fc9f00325c3dfb62,Maharashtra,MUMBAI,Srv Hospital,55,9,3,0
+5eeef927fc9f00325c3dfb63,Maharashtra,MUMBAI,Dr.L.H.Hiranandani Hospital,141,25,13,0
+5eeef927fc9f00325c3dfb64,Maharashtra,MUMBAI,Mumbai Metro Dahisar Jumbo Facility - T (Phase II),900,120,30,0
+5eeef927fc9f00325c3dfb66,Maharashtra,MUMBAI,Rajawadi Hospital,100,0,2,0
+5eeef927fc9f00325c3dfb65,Maharashtra,MUMBAI,NESCO Jumbo Facility  (Phase I),1000,0,60,0
+5eeef927fc9f00325c3dfb68,Maharashtra,MUMBAI,BSES MG General Hospital,52,13,4,0
+5eeef927fc9f00325c3dfb67,Maharashtra,MUMBAI,Nowrosjee Wadia Maternity Hospital,30,0,0,0
+5eeef927fc9f00325c3dfb69,Maharashtra,MUMBAI,Thunga Hospital,26,0,0,0
+5eeef927fc9f00325c3dfb6a,Maharashtra,MUMBAI,Ackworth Leprosy Hospital,30,0,0,0
+5eeef927fc9f00325c3dfb6b,Maharashtra,MUMBAI,Pt. M.M. Malviya Centenary Hospital,100,0,4,0
+5eeef927fc9f00325c3dfb6c,Maharashtra,MUMBAI,K B Bhabha Hospital,101,10,8,0
+5eeef927fc9f00325c3dfb6d,Maharashtra,MUMBAI,Karuna Hospital,40,0,0,0
+5eeef927fc9f00325c3dfb6e,Maharashtra,MUMBAI,Eye Hospital,30,0,0,0
+5eeef927fc9f00325c3dfb70,Maharashtra,MUMBAI,Maa Hospital,25,0,1,0
+5eeef927fc9f00325c3dfb6f,Maharashtra,MUMBAI,Worli Police Ground Jumbo Facility - GS (Phase III),200,50,10,0
+5eeef927fc9f00325c3dfb71,Maharashtra,MUMBAI,"Employees' State Insurance scheme Hospital",69,0,8,0
+5eeef927fc9f00325c3dfb72,Maharashtra,MUMBAI,K.B. Bhabha Hospital,100,7,10,0
+5eeef927fc9f00325c3dfb73,Maharashtra,MUMBAI,"NH SRCC Children's Hospital",18,6,3,0
+5eeef927fc9f00325c3dfb74,Maharashtra,MUMBAI,Gilder Lane School Jumbo Facility - E (Phase III),369,49,15,0
+5eeef927fc9f00325c3dfb75,Maharashtra,MUMBAI,Bhagwati Hospital,69,0,2,0
+5eeef927fc9f00325c3dfb76,Maharashtra,MUMBAI,Cama HOSPITAL,150,0,0,0
+5eeef927fc9f00325c3dfb77,Maharashtra,MUMBAI,Bombay Hospital,63,2,2,0
+5eeef927fc9f00325c3dfb78,Maharashtra,MUMBAI,Famous Studio Bandra Jumbo Facility ,220,48,30,0
+5eeef927fc9f00325c3dfb79,Maharashtra,MUMBAI,Lifeine Hospital,12,0,0,0
+5eeef927fc9f00325c3dfb7a,Maharashtra,MUMBAI,M.W. Desai Hospital,50,0,0,0
+5eeef927fc9f00325c3dfb7c,Maharashtra,MUMBAI,Jio Convention Centre Jumbo Facility ,1500,0,0,0
+5eeef927fc9f00325c3dfb7b,Maharashtra,MUMBAI,Bharat Ratna Dr Babasaheb Ambedkar Municipal General Hospital,150,10,13,0
+5eeef927fc9f00325c3dfb7d,Maharashtra,MUMBAI,S.K. Patil Hospital,60,0,0,0
+5eeef927fc9f00325c3dfb7f,Maharashtra,MUMBAI,Sushrusha Hospital,50,11,5,0
+5eeef927fc9f00325c3dfb7e,Maharashtra,MUMBAI,JNPT Hospital,20,0,4,0
+5eeef927fc9f00325c3dfb81,Maharashtra,MUMBAI,V.N. Desai Hospital,10,10,8,0
+5eeef927fc9f00325c3dfb80,Maharashtra,MUMBAI,Najam Baug Jumbo Facility - B (Phase II),100,0,0,0
+5eeef927fc9f00325c3dfb82,Maharashtra,MUMBAI,Richardson and Cruddas Jumbo Facility - E (Phase II),700,0,0,0
+5eeef927fc9f00325c3dfb83,Maharashtra,MUMBAI,Mumbai Port Trust Hospital,68,2,8,0
+5eeef927fc9f00325c3dfb84,Maharashtra,MUMBAI,ENT Hospital,60,0,0,0
+5eeef927fc9f00325c3dfb86,Maharashtra,MUMBAI,NSCI Dome Jumbo Facility - GS,518,0,0,0
+5eeef927fc9f00325c3dfb85,Maharashtra,MUMBAI,NESCO,285,0,0,0
+5eeef927fc9f00325c3dfb87,Maharashtra,MUMBAI,Maharashtra Nature Park (Dharavi) Jumbo Facility - GN,200,0,0,0
+5eeef927fc9f00325c3dfb88,Maharashtra,MUMBAI,SVD Savarkar Hospital,30,0,0,0
+5eeef927fc9f00325c3dfb89,Maharashtra,MUMBAI,Hindu Sabha Hospital,75,5,2,0
+5eeef927fc9f00325c3dfb8c,Maharashtra,MUMBAI,Filmistan Goregaon Jumbo Facility - PS (Phase III),175,50,20,0
+5eeef927fc9f00325c3dfb8e,Maharashtra,MUMBAI,NESCO Jumbo Facility - P South (Phase II),2000,200,0,0
+5eeef927fc9f00325c3dfb8b,Maharashtra,MUMBAI,Bombay Tobacco Studio Juhu Jumbo Facility - KW (PhaseIII),240,60,25,0
+5eeef927fc9f00325c3dfb8d,Maharashtra,MUMBAI,Malad Infiniti Mall Jumbo Facility - PN (Phase III),1500,0,0,0
+5eeef927fc9f00325c3dfb8a,Maharashtra,MUMBAI,Kanakia Ground Chembur Jumbo Facility - MW (PhaseIII),700,0,0,0
+5eeef927fc9f00325c3dfb8f,Maharashtra,MUMBAI,Hindu Mahasabha Hospital,100,0,0,0
+5eeef927fc9f00325c3dfb90,Maharashtra,MUMBAI,Mahatma Gandhi Memorial Hospital,100,0,0,0
+5eeef927fc9f00325c3dfb91,Maharashtra,MUMBAI,D2 Grant Medical Gymkhana,90,0,0,0
+5eeef927fc9f00325c3dfb93,Maharashtra,MUMBAI,GS2 Mahalaxmi Racecourse,300,0,0,0
+5eeef927fc9f00325c3dfb92,Maharashtra,MUMBAI,FS2 Baradevi Municipal School,75,0,0,0
+5eeef927fc9f00325c3dfb94,Maharashtra,PUNE,Symbiosis University Hospital,470,30,4,0
+5eeef927fc9f00325c3dfb95,Maharashtra,PUNE,Sahyadri Hospital  Deccan Gymkhana,89,19,24,0
+5eeef927fc9f00325c3dfb96,Maharashtra,PUNE,Inlax & Budhrani Hospital,161,20,20,0
+5eeef927fc9f00325c3dfb97,Maharashtra,PUNE,Poona Hospital,176,42,6,0
+5eeef927fc9f00325c3dfb9a,Maharashtra,PUNE,Jehangir Hospital,217,53,23,0
+5eeef927fc9f00325c3dfb98,Maharashtra,PUNE,Columbia Asia Hospital,68,10,5,0
+5eeef927fc9f00325c3dfb99,Maharashtra,PUNE,Sanjeevan Hospital,32,16,4,0
+5eeef927fc9f00325c3dfb9b,Maharashtra,PUNE,Deoyani Multispeciality hospital,56,10,3,0
+5eeef927fc9f00325c3dfb9c,Maharashtra,PUNE,Ruby Hall Clinic ,384,94,20,0
+5eeef927fc9f00325c3dfb9d,Maharashtra,PUNE,Artificial Limb Centre Hospital,190,30,10,0
+5eeef927fc9f00325c3dfb9e,Maharashtra,PUNE,Lokmanya Hospital,28,22,6,0
+5eeef927fc9f00325c3dfb9f,Maharashtra,PUNE,Sassoon General Hospital,147,40,28,0
+5eeef927fc9f00325c3dfba0,Maharashtra,PUNE,Aditya Birla hospital ,50,25,10,0
+5eeef927fc9f00325c3dfba1,Maharashtra,PUNE,Comd Hospital,350,40,10,0
+5eeef927fc9f00325c3dfba2,Maharashtra,PUNE,District Hospital,50,10,5,0
+5eeef927fc9f00325c3dfba3,Maharashtra,PUNE,Yashwantrao Chavan Memorial Hospital,500,90,25,0
+5eeef927fc9f00325c3dfba4,Maharashtra,PUNE,KEM Hospital,306,32,24,0
+5eeef927fc9f00325c3dfba6,Maharashtra,PUNE,Noble Hospital,146,10,14,0
+5eeef927fc9f00325c3dfba5,Maharashtra,PUNE,Smt Kashibai Navale Medical College,90,12,5,0
+5eeef927fc9f00325c3dfba7,Maharashtra,PUNE,Mimer Medical Collage & hospital ,80,20,6,0
+5eeef927fc9f00325c3dfba8,Maharashtra,PUNE,Bharti Vidyapeeth Hospital,400,32,32,0
+5eeef927fc9f00325c3dfba9,Maharashtra,PUNE,Deenanth Mangeshkar Hospital,480,64,40,0
+5eeef927fc9f00325c3dfbab,Maharashtra,PUNE,Sahyadri Hospital Nagar Road,32,4,2,0
+5eeef927fc9f00325c3dfbaa,Maharashtra,PUNE,Sahyadri Hospital Bibwewadi,80,20,8,0
+5eeef927fc9f00325c3dfbad,Maharashtra,PUNE,SDH Manchar,25,5,5,0
+5eeef927fc9f00325c3dfbac,Maharashtra,PUNE,Mahalaxmi Hospital,45,5,1,0
+5eeef927fc9f00325c3dfbae,Maharashtra,PUNE,Vishwaraj Hospital,85,25,2,0
+5eeef927fc9f00325c3dfbaf,Maharashtra,PUNE,Vignharth Hospital,40,6,2,0
+5eeef927fc9f00325c3dfbb0,Maharashtra,PUNE,Bhimashankar Ayurvedic Hospital Research Centre,60,0,0,0
+5eeef927fc9f00325c3dfbb2,Maharashtra,PUNE,Imax Hospital,90,10,2,0
+5eeef927fc9f00325c3dfbb1,Maharashtra,PUNE,New Bhosari Hospital,60,0,0,0
+5eeef927fc9f00325c3dfbb3,Maharashtra,PUNE,RH Rui,16,6,2,0
+5eeef927fc9f00325c3dfbb4,Maharashtra,PUNE,Bhakre Superspeciality Hospital & Resarch Institute,25,6,0,0
+5eeef927fc9f00325c3dfbb5,Maharashtra,PUNE,Dr. Naidu Hospital,110,10,5,0
+5eeef927fc9f00325c3dfbb6,Maharashtra,PUNE,Shlok Hospital,43,8,2,0
+5eeef927fc9f00325c3dfbb7,Maharashtra,PUNE,Matoshree  Madanbhai Hospital,44,6,2,0
+5eeef927fc9f00325c3dfbba,Maharashtra,PUNE,Surya Hospital,28,2,2,0
+5eeef927fc9f00325c3dfbb8,Maharashtra,PUNE,Shwas Hospital,40,10,2,0
+5eeef927fc9f00325c3dfbb9,Maharashtra,PUNE,Criticare Hospital,90,10,2,0
+5eeef927fc9f00325c3dfbbb,Maharashtra,PUNE,Accord Hospital,40,10,3,0
+5eeef927fc9f00325c3dfbbc,Maharashtra,PUNE,Chintamani Hospital,62,8,2,0
+5eeef927fc9f00325c3dfbbe,Maharashtra,PUNE,Rao Nursing Home,120,1,6,0
+5eeef927fc9f00325c3dfbbd,Maharashtra,PUNE,CH,49,1,1,0
+5eeef927fc9f00325c3dfbbf,Maharashtra,PUNE,Sterling Hospital,80,7,2,0
+5eeef927fc9f00325c3dfbc1,Maharashtra,PUNE,Khadki Cantonment Hospital,20,0,0,0
+5eeef927fc9f00325c3dfbc0,Maharashtra,PUNE,Swar. Sukhlalji Jain Dharmarth Hospital,47,3,1,0
+5eeef927fc9f00325c3dfbc2,Maharashtra,PUNE,Surya-Sahyadri Hospital,34,5,3,0
+5eeef927fc9f00325c3dfbc5,Maharashtra,PUNE,Sahyadri Hospital Hadapsar,84,10,7,0
+5eeef927fc9f00325c3dfbc4,Maharashtra,PUNE,ESIS Hospital,75,0,0,0
+5eeef927fc9f00325c3dfbc3,Maharashtra,PUNE,Ruby Hall Clinic,63,7,4,0
+5eeef927fc9f00325c3dfbc6,Maharashtra,PUNE,MJM Hospital,19,8,2,0
+5eeef927fc9f00325c3dfbc7,Maharashtra,PUNE,Jijamata Hospital,80,10,3,0
+5eeef927fc9f00325c3dfbca,Maharashtra,PUNE,BJS College & Hospital,420,0,0,0
+5eeef927fc9f00325c3dfbc9,Maharashtra,PUNE,Global Hospital & Research Institute,17,5,3,0
+5eeef927fc9f00325c3dfbc8,Maharashtra,PUNE,Pune Cantonment Hospital,200,0,0,0
+5eeef927fc9f00325c3dfbcb,Maharashtra,PUNE,Dr Babasaheb Ambedkar Mulanche Vastighruh,100,0,0,0
+5eeef927fc9f00325c3dfbcc,Maharashtra,PUNE,National Post Harvest Center,184,0,0,0
+5eeef927fc9f00325c3dfbcd,Maharashtra,PUNE,RakshakNagar Stadium,90,0,0,0
+5eeef927fc9f00325c3dfbce,Maharashtra,PUNE,"Boy's Hostel of Social Justice Department",260,0,0,0
+5eeef927fc9f00325c3dfbcf,Maharashtra,PUNE,Bhimashankar Ayurvedic College,40,0,0,0
+5eeef927fc9f00325c3dfbd0,Maharashtra,PUNE,Lenyandri Bhakt Niwas,250,0,0,0
+5eeef927fc9f00325c3dfbd1,Maharashtra,PUNE,Navsahyadari College of Engineering,224,0,0,0
+5eeef927fc9f00325c3dfbd3,Maharashtra,PUNE,Sanas Ground,125,0,0,0
+5eeef927fc9f00325c3dfbd4,Maharashtra,PUNE,Trauma Care Unit ,20,0,0,0
+5eeef927fc9f00325c3dfbd2,Maharashtra,PUNE,Dr. Dalavi Hospital,40,0,0,0
+5eeef927fc9f00325c3dfbd5,Maharashtra,PUNE,Magasvargiya Mulanche Vasatigruha,12,0,0,0
+5eeef927fc9f00325c3dfbd6,Maharashtra,PUNE,Indian Socity for social action,200,0,0,0
+5eeef927fc9f00325c3dfbd7,Maharashtra,PUNE,Magasvargiy Mulinche Shaskiya Vastigruh Indapur,100,0,0,0
+5eeef927fc9f00325c3dfbd8,Maharashtra,PUNE,Anu jati & navbaudhya Mulanche Shaskiya Vastigruh ,150,0,0,0
+5eeef927fc9f00325c3dfbd9,Maharashtra,PUNE,Bharti Vidyapeeth College of Aurved,50,0,0,0
+5eeef927fc9f00325c3dfbda,Maharashtra,PUNE,Wagire Pharmacy College ,30,0,0,0
+5eeef927fc9f00325c3dfbdb,Maharashtra,PUNE,Guruvarya Shankarrao Bhujbal Vidyalay,160,0,0,0
+5eeef927fc9f00325c3dfbdd,Maharashtra,PUNE,Hariyana Stadium,20,0,0,0
+5eeef927fc9f00325c3dfbdc,Maharashtra,PUNE,Dattakala Shikshan Sanstha,700,0,0,0
+5eeef927fc9f00325c3dfbdf,Maharashtra,PUNE,MTDC Bhakt Niwas Rajpur,200,0,0,0
+5eeef927fc9f00325c3dfbde,Maharashtra,PUNE,Shivtara Lodge,52,0,0,0
+5eeef927fc9f00325c3dfbe0,Maharashtra,PUNE,Sumatibai Shaha Ayurved College ,50,0,0,0
+5eeef927fc9f00325c3dfbe2,Maharashtra,PUNE,Sidhant Group of Institue,200,0,0,0
+5eeef927fc9f00325c3dfbe1,Maharashtra,PUNE,Nadushree Mangal Karyalay,150,0,0,0
+5eeef927fc9f00325c3dfbe3,Maharashtra,PUNE,MB Camp School ,100,0,0,0
+5eeef927fc9f00325c3dfbe4,Maharashtra,PUNE,Pune District Education Trust Ayurved College ,50,0,0,0
+5eeef927fc9f00325c3dfbe5,Maharashtra,PUNE,Astang Ayurved College,50,0,0,0
+5eeef927fc9f00325c3dfbe6,Maharashtra,PUNE,Singhgad College,327,0,0,0
+5eeef927fc9f00325c3dfbe7,Maharashtra,PUNE,Dr Kadam Gurukul High School,200,0,0,0
+5eeef927fc9f00325c3dfbe9,Maharashtra,PUNE,Julekhabai Vali Unani College,25,0,0,0
+5eeef927fc9f00325c3dfbe8,Maharashtra,PUNE,Dr. Ambedkar Highschool,120,0,0,0
+5eeef927fc9f00325c3dfbeb,Maharashtra,THANE,Thane Health Care,41,12,3,0
+5eeef927fc9f00325c3dfbea,Maharashtra,PUNE,Tilak Ayurved College,50,0,0,0
+5eeef927fc9f00325c3dfbee,Maharashtra,THANE,Prime Horizon Hospitl,85,15,8,0
+5eeef927fc9f00325c3dfbec,Maharashtra,THANE,KDMC Vasant Valley,66,9,2,0
+5eeef927fc9f00325c3dfbed,Maharashtra,THANE,Maxlife Hospital,63,10,2,0
+5eeef927fc9f00325c3dfbf3,Maharashtra,THANE,Terna Hospital,250,18,2,0
+5eeef927fc9f00325c3dfbf0,Maharashtra,THANE,Metro Multispeciality Hospital,50,30,0,0
+5eeef927fc9f00325c3dfbf2,Maharashtra,THANE,KDMC Sai Hospital,23,17,4,0
+5eeef927fc9f00325c3dfbef,Maharashtra,THANE,Fortis Hospital,100,1,1,0
+5eeef927fc9f00325c3dfbf1,Maharashtra,THANE,KDMC Shivam Hospital,44,6,2,0
+5eeef927fc9f00325c3dfbf4,Maharashtra,THANE,IGM Bhiwandi,90,10,4,0
+5eeef927fc9f00325c3dfbf7,Maharashtra,THANE,Siddhivinayak Maternity and General Hospital,43,7,4,0
+5eeef927fc9f00325c3dfbf5,Maharashtra,THANE,New Thane COVID Hospital,189,55,20,0
+5eeef927fc9f00325c3dfbf6,Maharashtra,THANE,Satya Sai Platinum Hospital,70,12,4,0
+5eeef927fc9f00325c3dfbf8,Maharashtra,THANE,KDMC A&G HOSPITAL ,29,6,2,0
+5eeef927fc9f00325c3dfbf9,Maharashtra,THANE,Apollo Hospital ,100,10,5,0
+5eeef927fc9f00325c3dfbfb,Maharashtra,THANE,Wellam Hospital & Diagnostic Centre,12,8,1,0
+5eeef927fc9f00325c3dfbfa,Maharashtra,THANE,Lake City Hospital,14,11,2,0
+5eeef927fc9f00325c3dfbfc,Maharashtra,THANE,Kaushalya Hospital,81,19,6,0
+5eeef927fc9f00325c3dfbfd,Maharashtra,THANE,Shwas Hospital,44,6,2,0
+5eeef927fc9f00325c3dfbfe,Maharashtra,THANE,Life Care Hospital,17,7,3,0
+5eeef927fc9f00325c3dfbff,Maharashtra,THANE,Param Hospital & ICU,18,10,5,0
+5eeef927fc9f00325c3dfc01,Maharashtra,THANE,KDMC Holy Cross,63,7,4,0
+5eeef927fc9f00325c3dfc00,Maharashtra,THANE,Fortune Plus ICU & Multispeciality Hospital LLP,18,8,1,0
+5eeef927fc9f00325c3dfc02,Maharashtra,THANE,KDMD C.B. VAIDYA MEMORIAL HOSPITAL ,39,6,2,0
+5eeef927fc9f00325c3dfc03,Maharashtra,THANE,KDMC Neon Hospital,22,6,5,0
+5eeef927fc9f00325c3dfc04,Maharashtra,THANE,Swayam Hospital,28,7,2,0
+5eeef927fc9f00325c3dfc07,Maharashtra,THANE,Pandit Bhimsen Joshi Hospital,130,20,18,0
+5eeef927fc9f00325c3dfc05,Maharashtra,THANE,Infinity MediSurge Center,25,7,4,0
+5eeef927fc9f00325c3dfc06,Maharashtra,THANE,KDMC Baj R.R. Hospital,45,11,4,0
+5eeef927fc9f00325c3dfc08,Maharashtra,THANE,KDMC STAR CITY MULTI SPECIALTY,44,6,2,0
+5eeef927fc9f00325c3dfc09,Maharashtra,THANE,TMC: Civil Hospital Thane ,180,20,15,0
+5eeef927fc9f00325c3dfc0c,Maharashtra,THANE,Jito Educational & Medical Trust,82,16,4,0
+5eeef927fc9f00325c3dfc0a,Maharashtra,THANE,MPCT Hospital ,46,4,4,0
+5eeef927fc9f00325c3dfc0b,Maharashtra,THANE,Oscar Multispeciality Hospital,39,9,3,0
+5eeef927fc9f00325c3dfc0d,Maharashtra,THANE,KDMC Sai Arogyam Hospital,18,7,2,0
+5eeef927fc9f00325c3dfc0e,Maharashtra,THANE,Galaxy Hospital,18,7,1,0
+5eeef927fc9f00325c3dfc10,Maharashtra,THANE,Sapphire Hospital,91,52,6,0
+5eeef927fc9f00325c3dfc0f,Maharashtra,THANE,MGM Hospital ,42,8,4,0
+5eeef927fc9f00325c3dfc11,Maharashtra,THANE,Titan Hospital,50,10,3,0
+5eeef927fc9f00325c3dfc12,Maharashtra,THANE,Sheth P V Doshi Hospital,32,8,4,0
+5eeef927fc9f00325c3dfc14,Maharashtra,THANE,Family Care Hospital,55,20,4,0
+5eeef927fc9f00325c3dfc13,Maharashtra,THANE,Neon Hospital,25,15,3,0
+5eeef927fc9f00325c3dfc15,Maharashtra,THANE,PKC Hospital ,40,10,2,0
+5eeef927fc9f00325c3dfc16,Maharashtra,THANE,Women Hospital,50,16,5,0
+5eeef927fc9f00325c3dfc17,Maharashtra,THANE,Neptune Hospital,8,7,1,0
+5eeef927fc9f00325c3dfc18,Maharashtra,THANE,Aaarogyan Multispeciality Hospital,50,11,2,0
+5eeef927fc9f00325c3dfc19,Maharashtra,THANE,Highway Hospital,41,9,3,0
+5eeef927fc9f00325c3dfc1a,Maharashtra,THANE,KDMC C.B. VAIDYA MEMORIAL HOSPITAL KALYAN,39,6,2,0
+5eeef927fc9f00325c3dfc1b,Maharashtra,THANE,KDMC Optilife Hospital,42,8,4,0
+5eeef927fc9f00325c3dfc1c,Maharashtra,THANE,S S Hospital,80,20,3,0
+5eeef927fc9f00325c3dfc1d,Maharashtra,THANE,TMC: Kalsekar Hospital,99,41,3,0
+5eeef927fc9f00325c3dfc1e,Maharashtra,THANE,Ambernath city Hospital,60,7,1,0
+5eeef927fc9f00325c3dfc1f,Maharashtra,THANE,Wockhardt Hospital,45,5,4,0
+5eeef927fc9f00325c3dfc20,Maharashtra,THANE,KDMC LALCHOWKI BOT ,40,10,2,0
+5eeef927fc9f00325c3dfc22,Maharashtra,THANE,SS HOSPITAL,90,10,0,0
+5eeef927fc9f00325c3dfc21,Maharashtra,THANE,KDMC Sidhivinayak Multi Specialty Hospital,16,9,2,0
+5eeef927fc9f00325c3dfc23,Maharashtra,THANE,MBMC - Thunga Hospital,22,8,1,0
+5eeef927fc9f00325c3dfc24,Maharashtra,THANE,Reliance Hospital ,87,13,6,0
+5eeef927fc9f00325c3dfc25,Maharashtra,THANE,KDMC RUKMINIBAI PLAZA,66,9,2,0
+5eeef927fc9f00325c3dfc26,Maharashtra,THANE,VED HOSPITAL,47,3,1,0
+5eeef927fc9f00325c3dfc27,Maharashtra,THANE,Vedant Hospital,90,20,12,0
+5eeef927fc9f00325c3dfc28,Maharashtra,THANE,Vashi General Hospital,175,10,30,0
+5eeef927fc9f00325c3dfc29,Maharashtra,THANE,Teoram Ashram,40,0,0,0
+5eeef927fc9f00325c3dfc2a,Maharashtra,THANE,Bhinar ashram school,200,0,0,0
+5eeef927fc9f00325c3dfc2b,Maharashtra,THANE,Dental college,500,0,0,0
+5eeef927fc9f00325c3dfc2c,Maharashtra,THANE,ETC Building ,100,0,0,0
+5eeef927fc9f00325c3dfc2d,Maharashtra,THANE,BSUP Khartan Road,144,0,0,0
+5eeef927fc9f00325c3dfc2e,Maharashtra,THANE,Lodha Parking Plaza,600,0,0,0
+5eeef927fc9f00325c3dfc2f,Maharashtra,THANE,NTEP Enginering College,200,0,0,0
+5eeef927fc9f00325c3dfc30,Maharashtra,THANE,TATA AMANTRA,440,0,0,0
+5eeef927fc9f00325c3dfc31,Maharashtra,THANE,Presidency school Padaga,200,0,0,0
+5eeef927fc9f00325c3dfc32,Maharashtra,THANE,KDMC SAI NIRVANA,636,0,0,0
+5eeef927fc9f00325c3dfc33,Maharashtra,THANE,FRANK HOSPITAL,40,0,0,0
+5eeef927fc9f00325c3dfc34,Maharashtra,THANE,India Bulls,1500,0,0,0
+5eeef927fc9f00325c3dfc35,Maharashtra,THANE,Dosti Desire,80,0,0,0
+5eeef927fc9f00325c3dfc36,Maharashtra,THANE,PRIME HOSPITAL,25,0,0,0
+5eeef927fc9f00325c3dfc37,Maharashtra,THANE,Reliance Life Science IT Park ,100,0,0,0
+5eeef927fc9f00325c3dfc38,Maharashtra,THANE,BSUP Padale,655,0,0,0
+5eeef927fc9f00325c3dfc39,Maharashtra,THANE,KDMC TITWALA GANESH MANDIR HALL,150,0,0,0
+5eeef927fc9f00325c3dfc3a,Maharashtra,THANE,BSUP CCC SONAVALI,100,0,0,0
+5eeef927fc9f00325c3dfc3b,Maharashtra,THANE,K Star Hotel,60,0,0,0
+5eeef927fc9f00325c3dfc3c,Maharashtra,THANE,Acme Rental Project,1113,0,0,0
+5eeef927fc9f00325c3dfc3d,Maharashtra,THANE,BSUP Sagarli,94,0,0,0
+5eeef927fc9f00325c3dfc3e,Maharashtra,THANE,Jondhale College ,30,0,0,0
+5eeef927fc9f00325c3dfc40,Maharashtra,THANE,KDMC MANGESHI CRYSTAL,50,0,0,0
+5eeef927fc9f00325c3dfc3f,Maharashtra,THANE,AMRUT HOSPITAL,25,0,0,0
+5eeef927fc9f00325c3dfc41,Maharashtra,THANE,IBIS Hotel ,196,0,0,0
+5eeef927fc9f00325c3dfc42,Maharashtra,THANE,BNMC-Tata Amantra,550,0,0,0
+5eeef927fc9f00325c3dfc43,Maharashtra,THANE,Warkari Bhavan,110,0,0,0
+5eeef927fc9f00325c3dfc45,Maharashtra,THANE,BSUP Brahmand ,90,0,0,0
+5eeef927fc9f00325c3dfc44,Maharashtra,THANE,Ramada Hotel,99,0,0,0
+5eeef927fc9f00325c3dfc47,Maharashtra,THANE,Ahilyabai Holkar Multipurpose Hall ,60,0,0,0
+5eeef927fc9f00325c3dfc46,Maharashtra,THANE,KDMC MANOJ RAI BUILDING,100,0,0,0
+5eeef927fc9f00325c3dfc48,Maharashtra,THANE,India Bull Residency ,1008,0,0,0
+5eeef927fc9f00325c3dfc49,Maharashtra,THANE,TMC: Hotel Capito,50,0,0,0
+5eeef927fc9f00325c3dfc4b,Maharashtra,THANE,Dosti Planet,340,0,0,0
+5eeef927fc9f00325c3dfc4a,Maharashtra,THANE,AL-MOIN HOSPITAL,40,0,0,0
+5eeef927fc9f00325c3dfc4d,Maharashtra,THANE,Delta garden,84,0,0,0
+5eeef927fc9f00325c3dfc4c,Maharashtra,THANE,KDMC SAINT LAWRENCE,200,0,0,0
+5eeef927fc9f00325c3dfc4e,Maharashtra,THANE,Hotel Dharsh Lodge ,35,0,0,0
+5eeef927fc9f00325c3dfc4f,Maharashtra,THANE,Koparkhairane Samaj Mandir Hall ,60,0,0,0
+5eeef927fc9f00325c3dfc50,Maharashtra,THANE,Sharanam Hotel,50,0,0,0
+5eeef927fc9f00325c3dfc51,Maharashtra,THANE,Lodha Bhayandarpada,250,0,0,0
+5eeef927fc9f00325c3dfc52,Maharashtra,THANE,KDMC SUB CENTER MUMBAI UNIVERSITY,200,0,0,0
+5eeef927fc9f00325c3dfc55,Maharashtra,THANE,Sai Sunder Hotel ,12,0,0,0
+5eeef927fc9f00325c3dfc53,Maharashtra,THANE,Central Hospital Dahiwali,100,0,0,0
+5eeef927fc9f00325c3dfc54,Maharashtra,THANE,M.M.R.D.A building samriddhi housing society ,814,0,0,0
+5eeef927fc9f00325c3dfc56,Maharashtra,THANE,Airoli Samaj Mandir,100,0,0,0
+5eeef927fc9f00325c3dfc58,Maharashtra,THANE,Hotel Lerida Runwal Nagar,50,0,0,0
+5eeef927fc9f00325c3dfc57,Maharashtra,THANE,Hotel Raj Residency,40,0,0,0
+5eeef927fc9f00325c3dfc5a,Maharashtra,THANE,Tata Amantra ,2973,0,0,0
+5eeef927fc9f00325c3dfc59,Maharashtra,THANE,KDMC BSUP INDIRA NAGAR,200,0,0,0
+5eeef927fc9f00325c3dfc5b,Maharashtra,THANE,Export Building ,300,0,0,0
+5eeef927fc9f00325c3dfc5c,Maharashtra,THANE,Agri Koli Bhavan,100,0,0,0
+5eeef927fc9f00325c3dfc5d,Maharashtra,THANE,DHANGE HOSPITAL,49,0,0,0
+5eeef927fc9f00325c3dfc5e,Maharashtra,THANE,Ginger Hotel ,40,0,0,0
+5eeef927fc9f00325c3dfc5f,Maharashtra,THANE,TMC: Kasarvadavali,242,0,0,0
+5eeef927fc9f00325c3dfc60,Maharashtra,THANE,Bsup Sonewali,100,0,0,0
+5eeef927fc9f00325c3dfc61,Maharashtra,THANE,Swami Vivekananad Multiperpal,140,0,0,0
+5eeef927fc9f00325c3dfc62,Maharashtra,THANE,Pranam Hotel ,25,0,0,0
+5eeef927fc9f00325c3dfc63,Maharashtra,THANE,CIDCO Exhibition Hall Vashi,682,0,0,0
+5eeef927fc9f00325c3dfc64,Maharashtra,THANE,Horizon School,1150,0,0,0

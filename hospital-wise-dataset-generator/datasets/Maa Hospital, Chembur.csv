@@ -1,0 +1,27 @@
+name,age,gender,date_admitted,bed_type
+Virikvas Acharya,68,Male,19/06/2020,NORMAL_BED
+Darpita Mukherjee,65,Female,20/06/2020,NORMAL_BED
+Dhiren Seth,68,Male,20/06/2020,NORMAL_BED
+Taruni Rao,25,Female,20/06/2020,NORMAL_BED
+Trijal Kashyap,61,Male,20/06/2020,VENTILATOR_BED
+Manjusri Bhasin,27,Female,21/06/2020,ICU_BED
+Badhra Varma,17,Female,22/06/2020,ICU_BED
+Uppal Laghari,41,Male,22/06/2020,NORMAL_BED
+Sumathi Kohli,61,Female,23/06/2020,NORMAL_BED
+Devashish Chopra,30,Male,23/06/2020,NORMAL_BED
+Amber Babu,16,Female,23/06/2020,NORMAL_BED
+Shyamalika Bhatt,60,Female,23/06/2020,ICU_BED
+Parnika Bawa,23,Female,23/06/2020,ICU_BED
+Aaradhya Sachdev,50,Female,23/06/2020,NORMAL_BED
+Raashi Bedi,55,Female,24/06/2020,NORMAL_BED
+Chitradevi Babu,30,Female,24/06/2020,NORMAL_BED
+Prithvijaj Batra,27,Male,24/06/2020,NORMAL_BED
+Snigda Batra,25,Female,25/06/2020,NORMAL_BED
+Mridula Dubey,38,Female,25/06/2020,NORMAL_BED
+Roma Chakrabarti,50,Female,25/06/2020,NORMAL_BED
+Trambakeshwar Sachdev,68,Male,25/06/2020,NORMAL_BED
+Aruna Bakshi,18,Female,26/06/2020,NORMAL_BED
+Manideepa Lal,21,Female,27/06/2020,NORMAL_BED
+Kamalnayan Dubey,21,Male,27/06/2020,NORMAL_BED
+Mohini Balakrishna,39,Female,27/06/2020,NORMAL_BED
+Simrit Biswas,38,Female,28/06/2020,NORMAL_BED

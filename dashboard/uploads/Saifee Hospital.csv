@@ -1,0 +1,100 @@
+name,age,gender,date_admitted,bed_type
+Charvi Chabra,66,Female,19-06-2020,ICU_BED
+Samidh Garg,45,Male,19-06-2020,NORMAL_BED
+Shyamali Deshpande,50,Female,19-06-2020,NORMAL_BED
+Shrujan Laghari,65,Male,19-06-2020,NORMAL_BED
+Ruma Mallick,11,Female,19-06-2020,NORMAL_BED
+Sushobhana Kapoor,54,Female,19-06-2020,NORMAL_BED
+Sanisth Dhawan,31,Male,19-06-2020,NORMAL_BED
+Abhirami Parekh,56,Female,19-06-2020,NORMAL_BED
+Raoul Dhawan,22,Male,19-06-2020,VENTILATOR_BED
+Smriti Deol,17,Female,19-06-2020,ICU_BED
+Paramartha Haldar,13,Male,20-06-2020,NORMAL_BED
+Aniketh Chandra,57,Male,20-06-2020,ICU_BED
+Pramit Deol,40,Male,20-06-2020,NORMAL_BED
+Gaura Jain,61,Female,20-06-2020,NORMAL_BED
+Medha Goel,15,Female,20-06-2020,ICU_BED
+Santosh Sachdev,54,Female,20-06-2020,ICU_BED
+Badhra Reddy,65,Female,20-06-2020,VENTILATOR_BED
+Shaili Agarwal,25,Female,21-06-2020,ICU_BED
+Kaushalya Dalal,38,Female,21-06-2020,NORMAL_BED
+Paravi Mukherjee,24,Female,21-06-2020,NORMAL_BED
+Usha Sachdev,59,Female,21-06-2020,NORMAL_BED
+Taksa Seth,68,Male,21-06-2020,NORMAL_BED
+Shvetanshu Kapoor,48,Male,21-06-2020,VENTILATOR_BED
+Shuchita Batra,55,Female,21-06-2020,ICU_BED
+Madhuparna Agarwal,15,Female,22-06-2020,NORMAL_BED
+Suvarnmala Das,33,Female,22-06-2020,NORMAL_BED
+Saket Chandra,13,Male,22-06-2020,NORMAL_BED
+Naomi Ganguly,27,Female,22-06-2020,VENTILATOR_BED
+Siya Shah,50,Female,22-06-2020,ICU_BED
+Chhaya Mallick,56,Female,22-06-2020,NORMAL_BED
+Radheya Malhotra,59,Male,23-06-2020,NORMAL_BED
+Shivangi Gill,38,Female,23-06-2020,NORMAL_BED
+Dristi Dayal,23,Female,23-06-2020,NORMAL_BED
+Naimish Gupta,25,Male,23-06-2020,NORMAL_BED
+Veena Jain,10,Female,23-06-2020,NORMAL_BED
+Hari Chabra,26,Male,23-06-2020,NORMAL_BED
+kalpitha Naidu,67,Female,23-06-2020,NORMAL_BED
+Srinish Deshmukh,62,Male,24-06-2020,NORMAL_BED
+Shejali Dalal,64,Female,24-06-2020,NORMAL_BED
+Reshmi Mahajan,34,Female,25-06-2020,NORMAL_BED
+Nima Dalal,33,Female,25-06-2020,NORMAL_BED
+Sanoja Arya,59,Female,25-06-2020,NORMAL_BED
+Amla Modi,32,Female,25-06-2020,NORMAL_BED
+Vanita Kapadia,67,Female,26-06-2020,NORMAL_BED
+Girilal Burman,19,Male,26-06-2020,NORMAL_BED
+Pratyaya Biswas,33,Female,26-06-2020,NORMAL_BED
+Govind Arya,52,Male,26-06-2020,NORMAL_BED
+Parmesh Mani,26,Male,27-06-2020,NORMAL_BED
+Lalitlochan Deshmukh,60,Male,27-06-2020,NORMAL_BED
+Prahlad Banerjee,40,Male,27-06-2020,NORMAL_BED
+Aashna Das,58,Female,27-06-2020,NORMAL_BED
+Namdev Ray,24,Male,28-06-2020,NORMAL_BED
+Vajramani Ganguly,47,Male,28-06-2020,NORMAL_BED
+Nivas Bawa,52,Male,29-06-2020,NORMAL_BED
+Hiten Babu,57,Male,30-06-2020,NORMAL_BED
+Chiranjeet Mangal,19,Male,30-06-2020,NORMAL_BED
+Sona Dhillon,55,Female,01-07-2020,NORMAL_BED
+Siddhesh Mehta,42,Male,01-07-2020,NORMAL_BED
+Cavery Reddy,45,Female,01-07-2020,NORMAL_BED
+Naveena Jha,28,Female,02-07-2020,NORMAL_BED
+Pratyaya Jain,44,Female,03-07-2020,NORMAL_BED
+Sharada Mallick,21,Female,03-07-2020,NORMAL_BED
+Janhavi Modi,57,Female,03-07-2020,NORMAL_BED
+Dhanvantari Khurana,30,Male,03-07-2020,NORMAL_BED
+Sulbha Varma,23,Female,04-07-2020,NORMAL_BED
+Trikay Deshmukh,47,Male,04-07-2020,NORMAL_BED
+Ranjana Ghosh,37,Female,04-07-2020,NORMAL_BED
+Rasmaru Kashyap,15,Male,05-07-2020,NORMAL_BED
+Manorama Kohli,26,Female,05-07-2020,NORMAL_BED
+Nageshwaran Kapoor,58,Male,05-07-2020,NORMAL_BED
+Raakhi Madan,47,Female,06-07-2020,NORMAL_BED
+Sarup Reddy,42,Male,06-07-2020,NORMAL_BED
+Sudeep Anthony,16,Male,06-07-2020,NORMAL_BED
+,,,,
+Dristi Modi,37,Female,07-07-2020,NORMAL_BED
+Falak Patel,53,Female,07-07-2020,NORMAL_BED
+Sandhya Singh,67,Female,07-07-2020,NORMAL_BED
+Shri Biswas,52,Female,07-07-2020,NORMAL_BED
+Suvarna Burman,30,Female,07-07-2020,NORMAL_BED
+Ujjala Khanna,13,Female,07-07-2020,NORMAL_BED
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,

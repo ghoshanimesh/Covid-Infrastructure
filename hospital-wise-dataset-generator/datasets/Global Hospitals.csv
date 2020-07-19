@@ -1,0 +1,37 @@
+name,age,gender,date_admitted,bed_type
+Loganayaki Lal,53,Female,19/06/2020,VENTILATOR_BED
+Rachana Balakrishna,59,Female,20/06/2020,VENTILATOR_BED
+Anumita Amin,55,Female,20/06/2020,ICU_BED
+Vinaya Amin,44,Female,20/06/2020,ICU_BED
+Prathitha Ghosh,69,Female,20/06/2020,ICU_BED
+Jagatprakash Shah,46,Male,20/06/2020,ICU_BED
+Harini Dhawan,65,Female,20/06/2020,NORMAL_BED
+Indrani Dayal,40,Female,21/06/2020,NORMAL_BED
+Prakrit Singh,69,Male,21/06/2020,NORMAL_BED
+Santosh Kohli,54,Female,21/06/2020,ICU_BED
+Sanyam Haldar,12,Male,21/06/2020,NORMAL_BED
+Gaandhaari Dalal,26,Female,22/06/2020,NORMAL_BED
+Mrigalochan Mani,49,Male,22/06/2020,NORMAL_BED
+Bhandhavi Bhanu Khatri,67,Female,22/06/2020,NORMAL_BED
+Nirek Banerjee,11,Male,22/06/2020,NORMAL_BED
+Erisha Mahajan,34,Female,22/06/2020,NORMAL_BED
+Kayaan Bawa,60,Male,23/06/2020,NORMAL_BED
+Mithilesh Jha,41,Female,24/06/2020,NORMAL_BED
+Dayamayee Joshi,38,Female,25/06/2020,NORMAL_BED
+Deepashikha Ghosh,13,Female,25/06/2020,NORMAL_BED
+Anupam Lal,27,Male,25/06/2020,NORMAL_BED
+Shivakanta Goel,56,Female,25/06/2020,NORMAL_BED
+Rohita Banerjee,17,Female,26/06/2020,NORMAL_BED
+Charusmita Bedi,37,Female,26/06/2020,NORMAL_BED
+Dikshil Kapoor,17,Male,26/06/2020,NORMAL_BED
+Eiravati Arya,65,Female,26/06/2020,NORMAL_BED
+Nandish Chadha,36,Male,27/06/2020,NORMAL_BED
+Swapna Basu,33,Female,27/06/2020,NORMAL_BED
+Khyati Apte,64,Female,28/06/2020,NORMAL_BED
+Taral Chawla,38,Female,29/06/2020,NORMAL_BED
+Shreekant Basu,22,Male,29/06/2020,NORMAL_BED
+Ushapati Chabra,13,Male,29/06/2020,NORMAL_BED
+Jagajeet Gokhale,53,Male,29/06/2020,NORMAL_BED
+Kanchi Acharya,38,Female,30/06/2020,NORMAL_BED
+Pranay Rao,68,Male,30/06/2020,NORMAL_BED
+Sudeepa Das,39,Female,01/07/2020,NORMAL_BED

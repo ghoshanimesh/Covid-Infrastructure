@@ -1,0 +1,53 @@
+<div id="app" class="layout-3">
+    <div class="main-wrapper container">
+      <div class="navbar-bg"></div>
+      <nav class="navbar navbar-expand-lg main-navbar">
+        <a href="index.html" class="navbar-brand sidebar-gone-hide"
+          >Covid-19 Tracker</a
+        >
+        <ul class="navbar-nav ml-auto">
+          <li class="dropdown">
+            <a
+              href="#"
+              data-toggle="dropdown"
+              class="nav-link dropdown-toggle nav-link-lg nav-link-user"
+            >
+              <div class="d-sm-none d-lg-inline-block">
+                {{ hosp_name }}
+              </div></a
+            >
+            <div class="dropdown-menu dropdown-menu-right">
+              <a [routerLink]="['../updateBeds']" class="dropdown-item has-icon">
+                <i class="fa fa-bed"></i> Update Beds
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item has-icon text-danger" (click)="logout()">
+                <i class="fas fa-sign-out-alt"></i> Logout
+              </a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+  
+      <div class="main-content">
+        <section class="section">
+          <div class="section-header">
+            <h1>{{hosp_name}}</h1>
+          </div>
+          <div class="section-body">
+            <h2 class="section-title">Hospital Details</h2>
+            <div class="card">
+              <div class="card-body text-size-up">
+                  <p class="text-capitalize">District : {{district}}</p>
+                  <p>State: {{state}}</p>
+                  <p>Normal Beds Total : {{normal_beds}} <button class="btn btn-warning ml-2 mb-1" (click)="updateNormalBedCount()"><i class="fas fa-pencil-alt"></i></button> </p>
+                  <p>ICU Beds : {{icu_beds}} <button class="btn btn-warning ml-2 mb-1" (click)="updateICUBedCount()"><i class="fas fa-pencil-alt"></i></button></p>
+                  <p>Ventilator Beds : {{vent_beds}} <button class="btn btn-warning ml-2 mb-1" (click)="updateVentBedCount()"><i class="fas fa-pencil-alt"></i></button></p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  

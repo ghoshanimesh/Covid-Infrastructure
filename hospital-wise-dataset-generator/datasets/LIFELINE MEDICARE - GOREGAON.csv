@@ -1,0 +1,17 @@
+name,age,gender,date_admitted,bed_type
+Saparna Zacharia,37,Female,20/06/2020,VENTILATOR_BED
+Tarani Mani,40,Female,20/06/2020,ICU_BED
+Ruchita Chakrabarti,35,Female,21/06/2020,ICU_BED
+Sanchaya Banerjee,10,Female,21/06/2020,NORMAL_BED
+Neena Khurana,31,Female,21/06/2020,NORMAL_BED
+Sujaya Dhillon,40,Female,21/06/2020,NORMAL_BED
+Abhilash Gill,16,Male,22/06/2020,NORMAL_BED
+Visruta Kapoor,65,Male,22/06/2020,NORMAL_BED
+Shresthi Gandhi,40,Female,22/06/2020,NORMAL_BED
+Ranjini Chopra,10,Female,22/06/2020,NORMAL_BED
+Siddhima Purohit,39,Female,22/06/2020,NORMAL_BED
+Roopa Dalal,10,Female,23/06/2020,NORMAL_BED
+Suneeti Sachdev,60,Female,23/06/2020,NORMAL_BED
+Badhra Jain,37,Female,23/06/2020,NORMAL_BED
+Gangotri Parekh,48,Female,23/06/2020,NORMAL_BED
+Krishna Chawla,44,Male,23/06/2020,NORMAL_BED

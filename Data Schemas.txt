@@ -1,0 +1,39 @@
+Features
+1) Age 
+2) Gender
+3) Current Status
+4) Bed Type
+
+Database schema
+Cases: 
+{
+	name: String,
+	age: Number,
+	gender: "Male"/"Female",
+	current_status: "Hospitalized"/"Recovered"/Death,
+	date_admitted: DateString,
+	date_released: DateString,
+	bed_type: "NORMAL_BED"/"ICU_BED"/"VENTILATOR_BED",
+	hospital_id: ObjectId
+}
+Hospitals:
+{
+	state: "Maharashtra",
+	district: "MUMBAI"/"PUNE"/"THANE",
+	hospital_name: String,
+	no_of_normal_beds: Number,
+	no_of_icu_beds: Number,
+	no_of_ventilators: Number
+}
+Users:
+{
+	hosp_id: ObjectId,
+	hospital_username: String,
+	hospital_password: String
+}
+
+Terms
+Hospitalized - total
+Recovered - recovered
+Deceased - deceased
+Active = Hospitalized - (Recovered + deceased)

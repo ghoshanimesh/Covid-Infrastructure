@@ -1,0 +1,13 @@
+name,age,gender,date_admitted,bed_type
+Phalak Laghari,34,Female,19/06/2020,ICU_BED
+Suvarnarekha Chowdhury,46,Female,19/06/2020,VENTILATOR_BED
+Neera Dara,70,Female,19/06/2020,NORMAL_BED
+Tanu Ghosh,46,Female,20/06/2020,NORMAL_BED
+Neeta Reddy,60,Female,20/06/2020,NORMAL_BED
+Sumathi Dubey,44,Female,20/06/2020,ICU_BED
+Ahana Bhasin,44,Female,21/06/2020,ICU_BED
+Madhusudhana Garg,47,Male,22/06/2020,NORMAL_BED
+Premal Mukherjee,39,Male,22/06/2020,NORMAL_BED
+Iha Balakrishna,53,Female,22/06/2020,NORMAL_BED
+Divyanshu Dhillon,10,Male,22/06/2020,NORMAL_BED
+Vishaka Mehta,37,Female,22/06/2020,NORMAL_BED

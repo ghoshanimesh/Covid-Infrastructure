@@ -1,0 +1,63 @@
+<div id="app" class="layout-3">
+  <div class="main-wrapper container">
+    <div class="navbar-bg"></div>
+    <nav class="navbar navbar-expand-lg main-navbar">
+      <a href="index.html" class="navbar-brand sidebar-gone-hide"
+        >Covid-19 Tracker</a
+      >
+      <ul class="navbar-nav ml-auto">
+        <li class="dropdown">
+          <a
+            href="#"
+            data-toggle="dropdown"
+            class="nav-link dropdown-toggle nav-link-lg nav-link-user"
+          >
+            <div class="d-sm-none d-lg-inline-block">
+              {{ hosp_name }}
+            </div></a
+          >
+          <div class="dropdown-menu dropdown-menu-right">
+            <a href="features-profile.html" class="dropdown-item has-icon">
+              <i class="fa fa-bed"></i> Update Beds
+            </a>
+            <div class="dropdown-divider"></div>
+            <a [routerLink]="['../updateBeds']" class="dropdown-item has-icon text-danger" (click)="logout()">
+              <i class="fas fa-sign-out-alt"></i> Logout
+            </a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="main-content">
+      <section class="section">
+        <div class="section-header">
+          <h1>{{ name }}</h1>
+          <div class="section-header-breadcrumb">
+            <div class="breadcrumb-item location">
+              <button class="btn btn-dark mr-2" (click)="openBedModal()">
+                Update Bed Details
+              </button>
+              <button class="btn btn-dark" (click)="openStatusModal()">
+                Update Current Status
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="section-body">
+          <h2 class="section-title">Patient Details</h2>
+          <div class="card">
+            <div class="card-body">
+              <p>Age : {{ age }}</p>
+              <p>Gender : {{ gender }}</p>
+              <p>Date Admitted : {{ date_admitted }}</p>
+              <p>Date Released : {{ date_released }}</p>
+              <p>Bed : {{ bedtype }}</p>
+              <p>Status : {{ current_status }}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>

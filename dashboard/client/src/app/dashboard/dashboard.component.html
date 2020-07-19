@@ -1,0 +1,166 @@
+<div id="app" class="layout-3">
+  <div class="main-wrapper container">
+    <div class="navbar-bg"></div>
+    <nav class="navbar navbar-expand-lg main-navbar">
+      <a href="index.html" class="navbar-brand sidebar-gone-hide"
+        >Covid-19 Tracker</a
+      >
+      <ul class="navbar-nav ml-auto">
+        <li class="dropdown">
+          <a
+            href="#"
+            data-toggle="dropdown"
+            class="nav-link dropdown-toggle nav-link-lg nav-link-user"
+          >
+            <div class="d-sm-none d-lg-inline-block">
+              {{ hospital_name }}
+            </div></a
+          >
+          <div class="dropdown-menu dropdown-menu-right">
+            <a [routerLink]="['../updateBeds']" class="dropdown-item has-icon">
+              <i class="fa fa-bed"></i> Update Beds
+            </a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item has-icon text-danger" (click)="logout()">
+              <i class="fas fa-sign-out-alt"></i> Logout
+            </a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <section class="section">
+        <div class="section-header">
+          <h1>{{ hospital_name }}</h1>
+          <div class="section-header-breadcrumb">
+            <div class="breadcrumb-item location">{{ hospital_loc }}</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+            <div class="card card-statistic-1">
+              <div class="card-icon bg-warning">
+                <i class="fa fa-plus fa-2x"></i>
+              </div>
+              <div class="card-wrap">
+                <div class="card-header">
+                  <h4>Infected</h4>
+                </div>
+                <div class="card-body">
+                  {{ hospitalized }}
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+            <div class="card card-statistic-1">
+              <div class="card-icon bg-success">
+                <i class="fa fa-heart fa-2x"></i>
+              </div>
+              <div class="card-wrap">
+                <div class="card-header">
+                  <h4>Recovered</h4>
+                </div>
+                <div class="card-body">
+                  {{ recovered }}
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+            <div class="card card-statistic-1">
+              <div class="card-icon bg-danger">
+                <i class="fa fa-times fa-2x"></i>
+              </div>
+              <div class="card-wrap">
+                <div class="card-header">
+                  <h4>Death</h4>
+                </div>
+                <div class="card-body">
+                  {{ death }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+            <div class="card card-statistic-1">
+              <div class="card-icon bg-dark">
+                <i class="fa fa-bed fa-2x"></i>
+              </div>
+              <div class="card-wrap">
+                <div class="card-header">
+                  <h4>Normal Bed</h4>
+                </div>
+                <div class="card-body">
+                  {{ norm_used_bed }}/{{ norm_tot_bed }}
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+            <div class="card card-statistic-1">
+              <div class="card-icon bg-dark">
+                <i class="fa fa-procedures fa-2x"></i>
+              </div>
+              <div class="card-wrap">
+                <div class="card-header">
+                  <h4>ICU Beds</h4>
+                </div>
+                <div class="card-body">
+                  {{ icu_used_bed }}/{{ icu_tot_bed }}
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+            <div class="card card-statistic-1">
+              <div class="card-icon bg-dark">
+                <i class="fa fa-heartbeat fa-2x"></i>
+              </div>
+              <div class="card-wrap">
+                <div class="card-header">
+                  <h4>Ventilator</h4>
+                </div>
+                <div class="card-body">
+                  {{ vent_used_bed }}/{{ vent_tot_bed }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-title">Add New Patients</div>
+        <div class="row mb-5 ml-2">
+          <div class="custom-file col-lg-6">
+            <input type="file" class="custom-file-input" id="customFile" (change)="fileChange($event)"/>
+            <label class="custom-file-label" for="customFile"
+              >{{fileLabel}}</label
+            >
+          </div>
+          <div class="col-lg-1 ml-3 mt-1">
+            <button class="btn btn-dark" (click)="upload()">Upload Records</button>
+          </div>
+        </div>
+
+        <div class="section-body">
+          <h2 class="section-title">Patients Data</h2>
+          <div class="card">
+            <div class="card-body">
+              <div class="table-responsive">
+                <table class="table table-striped" id="table-1">
+                  <thead></thead>
+                  <tbody></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
