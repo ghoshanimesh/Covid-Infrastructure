@@ -5,7 +5,7 @@ var cors = require("cors");
 var path = require("path");
 
 var app = express();
-const portno = 3000;
+const portno = process.env.PORT || 3000;
 
 const route = require("./routes/route");
 // const connectionString = "mongodb://localhost:27017/covidpredictor"

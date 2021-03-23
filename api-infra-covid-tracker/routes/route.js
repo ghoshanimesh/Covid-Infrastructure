@@ -4,6 +4,30 @@ const mongoose = require("mongoose");
 
 const Hospital = require("../models/hospital");
 const Case = require("../models/cases");
+const Booking = require("../models/booking");
+
+router.get("/", (req, res, next) => {
+  res.send("Hello");
+});
+
+router.post("/addBedBooking",(req,res,next) => {
+  let newBooking = new Booking({
+    name:req.body.name,
+    phoneno:req.body.phoneno,
+    date:req.body.date,
+    gender:req.body.gender,
+    hospital_id: mongoose.Types.ObjectId(req.body.hosp_id),
+  });
+  console.log(newBooking);
+  newBooking.save((err, booked) => {
+    if (err) {
+      res.json({ msg: "Failed to book a bed " + err , success : false});
+    } else {
+      console.log(booked);
+      res.json({ msg: "Bed Booked successfully",success : true });
+    }
+  });
+});
 
 router.get("/getCountOfHospitalized/:hosp_id", (req, res, next) => {
   var id = mongoose.Types.ObjectId(req.params.hosp_id);
@@ -14,6 +38,53 @@ router.get("/getCountOfHospitalized/:hosp_id", (req, res, next) => {
       {
         $match: {
           hospital_id: id,
+        },
+      },
+      {
+        $group: {
+          _id: "$date_admitted",
+          count: { $sum: 1 },
+        },
+      },
+      {
+        $sort: { _id: 1 },
+      },
+    ]);
+    var hospitalized_count;
+    query_h.exec((err, cases) => {
+      console.log("insdide query exev");
+      if (err) {
+        console.log("Herereee");
+        res
+          .status(404)
+          .json({ msg: "Error retrieving hospital with id " + err });
+      } else {
+        console.log("I am in else");
+        hospitalized_count = cases;
+        results.push(hospitalized_count);
+        res.send(results);
+      }
+    });
+  } else res.send("Please give id");
+});
+
+router.get("/getCountOfHospitalizedByDistrict/:name", (req, res, next) => {
+  var name = (req.params.name);
+  let results = [];
+  if (name != null) {
+    console.log(name);
+    let query_h = Case.aggregate([
+      { 
+        "$lookup": {
+          from: "hospitals",
+          localField: "hospital_id",
+          foreignField: "_id",
+          as: "temp"
+      }},
+      { "$unwind": "$temp" },
+      {
+        $match: {
+          "temp.district": name,
         },
       },
       {
@@ -85,6 +156,55 @@ router.get("/getCountOfRecovered/:hosp_id", (req, res, next) => {
   }
 });
 
+router.get("/getCountOfRecoveredByDistrict/:name", (req, res, next) => {
+  var name = (req.params.name);
+  let results = [];
+  if (name != null) {
+    console.log(name);
+    let query_r = Case.aggregate([
+      { 
+        "$lookup": {
+          from: "hospitals",
+          localField: "hospital_id",
+          foreignField: "_id",
+          as: "temp"
+      }},
+      { "$unwind": "$temp" },
+      {
+        $match: {
+          "temp.district": name,
+          current_status: "Recovered",
+        },
+      },
+      {
+        $group: {
+          _id: "$date_released",
+          count: { $sum: 1 },
+        },
+      },
+      {
+        $sort: { _id: 1 },
+      },
+    ]);
+
+    var recovered_count;
+    query_r.exec((err, cases) => {
+      console.log("insdide query exev");
+      if (err) {
+        console.log("Herereee");
+        res
+          .status(404)
+          .json({ msg: "Error retrieving hospital with id " + err });
+      } else {
+        console.log("I am in else");
+        recovered_count = cases;
+        results.push(recovered_count);
+        res.send(results);
+      }
+    });
+  }
+});
+
 router.get("/getCountOfDeath/:hosp_id", (req, res, next) => {
   var id = mongoose.Types.ObjectId(req.params.hosp_id);
   let results = [];
@@ -94,6 +214,55 @@ router.get("/getCountOfDeath/:hosp_id", (req, res, next) => {
       {
         $match: {
           hospital_id: id,
+          current_status: "Death",
+        },
+      },
+      {
+        $group: {
+          _id: "$date_released",
+          count: { $sum: 1 },
+        },
+      },
+      {
+        $sort: { _id: 1 },
+      },
+    ]);
+
+    var death_count;
+    query_d.exec((err, cases) => {
+      console.log("insdide query exev");
+      if (err) {
+        console.log("Herereee");
+        res
+          .status(404)
+          .json({ msg: "Error retrieving hospital with id " + err });
+      } else {
+        console.log("I am in else");
+        death_count = cases;
+        results.push(death_count);
+        res.send(results);
+      }
+    });
+  } else res.send("Please give id");
+});
+
+router.get("/getCountOfDeathByDistrict/:name", (req, res, next) => {
+  var name = (req.params.name);
+  let results = [];
+  if (name != null) {
+    console.log(name);
+    let query_d = Case.aggregate([
+      { 
+        "$lookup": {
+          from: "hospitals",
+          localField: "hospital_id",
+          foreignField: "_id",
+          as: "temp"
+      }},
+      { "$unwind": "$temp" },
+      {
+        $match: {
+          "temp.district": name,
           current_status: "Death",
         },
       },

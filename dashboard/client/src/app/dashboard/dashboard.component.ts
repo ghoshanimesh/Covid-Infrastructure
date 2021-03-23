@@ -19,8 +19,11 @@ declare var $;
 })
 export class DashboardComponent implements OnInit {
   dtOption: any = {};
+  dtOption2: any = {};
   hosp_data: Object;
   cases: any;
+  bookinginfo: any;
+  district: String;
   hospital_name: String;
   hospital_loc: String;
   hospitalized: Number;
@@ -32,6 +35,10 @@ export class DashboardComponent implements OnInit {
   icu_tot_bed: Number;
   vent_used_bed: Number;
   vent_tot_bed: Number;
+  
+  dist_death:Number;
+  dist_rec:Number;
+  dist_hosp:Number;
   uploadedFiles: any;
   fileLabel: String = "Browse Patients Records File (only .csv)";
 
@@ -39,8 +46,21 @@ export class DashboardComponent implements OnInit {
 
   ngOnInit(): void {
     let i = 1;
+    let j =1;
     this.authService.getHospitalInfo().subscribe((hospinfo) => {
       this.hosp_data = hospinfo['hosp_info'][0];
+      this.authService.getDistrictPredictionD(this.hosp_data['district']).subscribe((distDinfo) => {
+        console.log(distDinfo);
+        this.dist_death = distDinfo['Death'];
+      });
+      this.authService.getDistrictPredictionR(this.hosp_data['district']).subscribe((distRinfo) => {
+        console.log(distRinfo);
+        this.dist_rec = distRinfo['Recovered'];
+      });
+      this.authService.getDistrictPredictionH(this.hosp_data['district']).subscribe((distHinfo) => {
+        console.log(distHinfo);
+        this.dist_hosp = distHinfo['Hospitalized'];
+      });
       console.log(this.hosp_data);
       this.cases = hospinfo['cases'];
       console.log(this.cases);
@@ -105,8 +125,10 @@ export class DashboardComponent implements OnInit {
         $('table#table-1').DataTable(this.dtOption);
       });
 
+
       //Assigning other info
       this.hospital_name = this.hosp_data['hospital_name'];
+      this.district = this.hosp_data['district'];
       this.hospital_loc =
         this.hosp_data['district']
           .split(' ')
@@ -114,6 +136,7 @@ export class DashboardComponent implements OnInit {
           .join(' ') +
         ', ' +
         this.hosp_data['state'];
+      
 
       this.recovered = this.cases.filter(
         (obj) => obj.current_status == 'Recovered'
@@ -146,6 +169,8 @@ export class DashboardComponent implements OnInit {
       ).length;
     });
   }
+
+
 
   fileChange(element){
     this.uploadedFiles = element.target.files;

@@ -55,10 +55,26 @@ export class AuthService {
     return this.http.get("http://localhost:3000/getCase/" + id, {headers: {"Authorization": this.authToken}});    
   }
 
+  getDistrictPredictionD(district){
+    var d = district.toUpperCase();
+    return this.http.get("https://infra-prediction-model.herokuapp.com/getPredictionValueForDistrictD/" + d);
+  }
+
+  getDistrictPredictionR(district){
+    var d = district.toUpperCase();
+    return this.http.get("https://infra-prediction-model.herokuapp.com/getPredictionValueForDistrictR/" + d);
+  }
+
+  getDistrictPredictionH(district){
+    var d = district.toUpperCase();
+    return this.http.get("https://infra-prediction-model.herokuapp.com/getPredictionValueForDistrictH/" + d);
+  }
+
   getHospitalInfo(){
     this.loadToken();
+    let hid = JSON.parse(localStorage.getItem('user'))['hosp_id'];
     // console.log(this.authToken);
-    return this.http.get("http://localhost:3000/profile", {headers: {"Authorization": this.authToken}});
+    return this.http.get("http://localhost:3000/profile/"+hid, {headers: {"Authorization": this.authToken}});
   }
 
   updateCaseStatus(caseid, status){
@@ -69,6 +85,11 @@ export class AuthService {
   updateBedType(caseid, bedtype){
     this.loadToken();
     return this.http.put("http://localhost:3000/updateBedType", {"caseid": caseid, "bedtype": bedtype}, {headers: {"Authorization": this.authToken}});
+  }
+
+  getBooking(){
+    this.loadToken();
+    return this.http.get("http://localhost:3000/getBooking", {headers: {"Authorization": this.authToken}})
   }
 
   addPatientsData(formdata){

@@ -1,10 +1,12 @@
 const express = require("express");
 const router = express.Router();
 const mongoose = require("mongoose");
+const { default: axios } = require("axios");
 
 const User = require("../models/hospital_user");
 const Hospital = require("../models/hospital");
 const Case = require("../models/cases");
+const Booking = require("../models/booking");
 
 const passport = require("passport");
 const jwt = require("jsonwebtoken");
@@ -12,7 +14,7 @@ const multer = require("multer");
 const random_name = require("random-indian-name");
 const fs = require("fs");
 const neatCsv = require("neat-csv");
-const { count } = require("console");
+const { count, Console } = require("console");
 const cases = require("../models/cases");
 
 const storage = multer.diskStorage({
@@ -33,10 +35,23 @@ router.get("/", (req, res, next) => {
   res.send("Wooooooorking");
 });
 
+router.post("/getDistrictValue",async(req,res,next) => {
+  const dis = req.body.district;
+  var value = "";
+  await axios
+    .get(
+      "https://infra-prediction-model.herokuapp.com/getPredictionValueForDistrict/" + dis,
+    ).then((ress) => {
+      res.send(ress);
+    });
+});
+
 //Login
 router.post("/authenticate", (req, res, next) => {
   const username = req.body.username;
   const password = req.body.password;
+  console.log("Username ------> " + req.body.username);
+  console.log("Password ------> " + req.body.password);
 
   User.findOne({ hospital_username: username }, (err, hospuser) => {
     if (err) {
@@ -50,6 +65,8 @@ router.post("/authenticate", (req, res, next) => {
         const token = jwt.sign({ data: hospuser }, "jwt-secret", {
           expiresIn: 604800,
         });
+        console.log("Hospital user name -----> " + hospuser.hospital_username);
+        console.log("Hospital id -----> " + hospuser.hosp_id);
         res.json({
           success: true,
           token: "bearer " + token,
@@ -67,11 +84,11 @@ router.post("/authenticate", (req, res, next) => {
 
 //Get entire data
 router.get(
-  "/profile",
+  "/profile/:hospid",
   passport.authenticate("jwt", { session: false }),
   (req, res, next) => {
-    console.log(req.user.hosp_id);
-    let hosp_id = req.user.hosp_id;
+    let hosp_id = mongoose.Types.ObjectId(req.params.hospid);
+    //let hosp_id = req.user.hosp_id;
     Hospital.find({ _id: hosp_id }, (err, hospital_info) => {
       if (err) {
         return { msg: "Unable to find the hospital" };
@@ -108,6 +125,30 @@ router.get(
         res.json(casedata);
       }
     });
+  }
+);
+
+router.get(
+  "/getBooking",
+  passport.authenticate("jwt", { session: false }),
+  (req, res, next) => {
+    try {
+      let hosp_id = req.user.hosp_id;
+      Booking.find({ hospital_id : hosp_id },(err,bookingdata) => {
+        if (err) {
+          res.json({ msg: err });
+        } else if (bookingdata.length == 0) {
+          res.json({ msg: "No Case found" });
+        } else {
+          let data = {};
+          data["bookings"] = bookingdata;
+          res.json(data);
+        }
+      })
+    } catch (err) {
+      console.log(err);
+      res.json({ status: 400, msg: err });
+    }
   }
 );
 
